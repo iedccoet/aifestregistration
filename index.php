@@ -40,34 +40,36 @@
         <h1>Our Guests</h1>
 
         <div class="guestinstance">
-                <a href="#modall">
-                        <div class="chip" onclick = "alert('praveen sreedhar') ">
-                                <img src="./img/meharmoosa.jpg" alt="Contact Person">
-                                Praveen Sreedhar, <label> Google </label> 
-                        </div>
-                </a>
                 <div class="chip">
                         <img src="./img/meharmoosa.jpg" alt="Contact Person">
-                        Enfa George, <label> Google </label>
+                        Moosa Mehar, <label> Tinkerhub </label>
+                </div>
+                <div class="chip" onclick = "alert('praveen sreedhar') ">
+                    <img src="./img/praveen.jpg" alt="Contact Person">
+                    Praveen Sreedhar, <label> Tinkerhub </label> 
+                </div>
+                <div class="chip">
+                        <img src="./img/enfageorge.jpeg" alt="Contact Person">
+                        Enfa George, <label> Tinkerhub </label>
+                </div>
+                <div class="chip">
+                        <img src="./img/farizrahman.jpeg" alt="Contact Person">
+                        Faris Rahman, <label> Tinkerhub </label>
+                </div>
+                <div class="chip">
+                        <img src="./img/gopi.jpeg" alt="Contact Person">
+                        Gopikrishnan S, <label> Tinkerhub </label>
                 </div>
                 <div class="chip">
                         <img src="./img/meharmoosa.jpg" alt="Contact Person">
-                        Faris Rahman, <label> Google </label>
+                        Kedar Nath, <label> Microsoft </label>
                 </div>
                 <div class="chip">
-                        <img src="./img/meharmoosa.jpg" alt="Contact Person">
-                        Gopikrishnan Sasikumar, <label> Google </label>
-                </div>
-                <div class="chip">
-                        <img src="./img/meharmoosa.jpg" alt="Contact Person">
-                        Kedar Nath, <label> Google </label>
-                </div>
-                <div class="chip">
-                        <img src="./img/meharmoosa.jpg" alt="Contact Person">
+                        <img src="./img/sidagarwal.jpg" alt="Contact Person">
                         Sid Agarwal, <label> Google </label>
                 </div>
                 <div class="chip">
-                        <img src="./img/meharmoosa.jpg" alt="Contact Person">
+                        <img src="./img/prathyusha.jpeg" alt="Contact Person">
                         Prathyusha P Simharaju, <label> Google </label>
                 </div>
 
