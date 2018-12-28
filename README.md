@@ -41,6 +41,6 @@ See also the list of [contributors](https://github.com/iedccoet/aifestregistrati
 
 ## License
 
-This project is licensed under the Apache - see the [LICENSE.md](https://github.com/iedccoet/aifestregistration/blob/master/LICENSE) file for details
+This project is licensed under the Apache 2.0 - see the [LICENSE.md](https://github.com/iedccoet/aifestregistration/blob/master/LICENSE) file for details
 
 
