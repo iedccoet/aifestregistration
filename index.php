@@ -45,7 +45,7 @@
                 </a>
                 <div class="chip">
                         <img src="./img/meharmoosa.jpg" alt="Contact Person">
-                        Enfa George
+                        Fariz Rahman
                 </div>
                 <div class="chip">
                         <img src="./img/meharmoosa.jpg" alt="Contact Person">
