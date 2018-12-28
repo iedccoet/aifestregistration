@@ -78,6 +78,7 @@
 
     <div class="registrationform " id="registration">
         <h2>Registration</h2>
+        <label><i class="fas fa-info-circle"></i> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis repellat error odio ducimus velit reprehenderit, nesciunt praesentium et itaque nam assumenda voluptatibus. Perferendis magnam velit quis! Nulla itaque quisquam aut dolores molestiae. Praesentium nam aliquam ipsa possimus aperiam mollitia commodi?</label>
         <form action="apply.php" method="POST">
         
             <div class="input-field col s12">
@@ -132,13 +133,12 @@
       </label>
     </p>
         </div>
-        <button class="btn waves-effect waves-light" type="submit" name="action" id = "regsubmit">Submit
+        <button class="btn waves-effect waves-light" type="submit" name="action" id = "regsubmit" disabled>Submit
             <i class="material-icons right">send</i>
           </button>
       </form>
       
     </div>
-
     <?php
       include_once('contact.php');
     ?>
@@ -156,8 +156,8 @@
         </div>
         <div class="footer-copyright">
           <div class="container">
-          © 2019 All Rights recieved
-          <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+          © 2018 
+          <span class="grey-text text-lighten-4 right">made with <i class="fas fa-heart"></i> by IEDC</span>
           </div>
         </div>
       </footer>

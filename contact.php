@@ -33,26 +33,26 @@
 		<h2>Contact Us</h2>
 		<form method="POST">
 			<div class="input-field col s12">
-                <input id="name" type="text" class="validate" name="name_contact">
+                <input id="name_contact_lab" type="text" class="validate" name="name_contact">
                 <label for="name_contact_lab">Name</label>
             </div>
 
             <div class="input-field col s12">
-                <input id="email" type="text" class="validate" name="email_contact">
-                <label for="subject_contact_lab">Email</label>
+                <input id="email_contact_lab" type="text" class="validate" name="email_contact">
+                <label for="email_contact_lab">Email</label>
             </div>
 
             <div class="input-field col s12">
-                <input id="subject" type="text" class="validate" name="subject_contact">
+                <input id="subject_contact_lab" type="text" class="validate" name="subject_contact">
                 <label for="subject_contact_lab">Subject</label>
             </div>
 
             <div class="input-field col s12">
-                <textarea id="msg" class="materialize-textarea" name="message"></textarea>
+                <textarea id="message_lab" class="materialize-textarea" name="message"></textarea>
                 <label for="message_lab">Message</label>
             </div>
 
-            <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+            <button class="btn" type="submit" name="action">Send
             <i class="material-icons right">send</i>
           </button>
 		</form>
