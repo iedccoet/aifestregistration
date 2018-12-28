@@ -1,0 +1,21 @@
+body{
+	width: 100%;
+	height: auto;
+}
+.container{
+	text-align: center;
+}
+table, th, td {
+    border: 1px solid black;
+}
+
+.table-control{
+	padding: 15px;
+}
+
+.button-control{
+	display: inline-block;
+	margin-top: 100px;
+	height:60px;
+	width:500px;
+}
