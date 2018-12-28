@@ -85,9 +85,10 @@
 
 
 
-    <div class="registrationform container" id="registration">
+    <div class="registrationform " id="registration">
         <h2>Registration</h2>
         <form action="apply.php" method="POST">
+        
             <div class="input-field col s12">
                 <input id="project_name" type="text" class="validate" name="project_name">
                 <label for="project_name">Project Name</label>
@@ -100,15 +101,8 @@
                 <input id="video_link" type="text" class="validate" name="video_link">
                 <label for="video_link">Compressed 2 min Video Link (youtube)</label>
             </div>
-            <div id="details_1"></div>
-            <div id="details_2"></div>
-            <div id="details_3"></div>
-            <div id="details_4"></div>
-            <div id="details_5"></div>
-            <div id="details_6"></div>    
-            
             <div>
-              <label>Accomodation required?</label>
+              <label>Accomodation required?</label><br>
                   <label>
                     <input class="with-gap" name="accomodation" type="radio"  value="Yes"/>
                     <span>Yes</span>
@@ -119,22 +113,37 @@
                     <span>No</span>
                   </label>   
             </div>
+            <div id="details_1"></div>
+            <div id="details_2"></div>
+            <div id="details_3"></div>
+            <div id="details_4"></div>
+            <div id="details_5"></div>
+            <div id="details_6"></div>    
+            
 
 <!--do not end div here-->  
     </div>
-
-        <div class="addbtn container">
-          <div class="addparticipantbtn">
-              <a class="btn-floating btn-large waves-effect waves-light red " onclick="increment()" ><i class="material-icons">add</i></a>
-          </div>  
-          <div class="addparticipantbtn">
-              <a class="btn-floating btn-large waves-effect waves-light red " onclick="remove()" ><i class="material-icons">remove</i></a>
-          </div>   
-        
-          <div class="addparticipantbtn">
-              <button type="submit" name="submit" class="btn-floating btn-large waves-effect waves-light red " >Submit</button>
-          </div>
+      
+    <div class="addbtn">
+        <div class="addparticipantbtn">
+            <a class="btn-floating btn-large red " onclick="increment()" ><i class="material-icons">add</i></a>
+        </div>  
+        <div class="addparticipantbtn">
+            <a class="btn-floating btn-large  red " onclick="remove()" ><i class="material-icons">remove</i></a>
         </div>
+          
+      </div>
+        <div>
+        <p>
+      <label>
+        <input type="checkbox" onchange="document.getElementById('regsubmit').disabled = !this.checked;"/>
+        <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur nemo, inventore dicta voluptatibus quo aspernatur amet, reprehenderit fugit adipisci iure doloribus sunt commodi? Officiis dolorum est maxime earum fuga minus!</span>
+      </label>
+    </p>
+        </div>
+        <button class="btn waves-effect waves-light" type="submit" name="action" id = "regsubmit">Submit
+            <i class="material-icons right">send</i>
+          </button>
       </form>
       
     </div>
@@ -149,7 +158,7 @@
             <div class="col 12 s12">
               <h5 class="white-text">AI FEST 2.0</h5>
               <a href="#"><i class="fab fa-instagram fa-3x footericon"></i></a>
-              <a href="#"><i class="fab fa-github-square fa-3x footericon"></i></a>
+              <a href="https://github.com/iedccoet" target="_blank"><i class="fab fa-github-square fa-3x footericon"></i></a>
               <p class="grey-text text-lighten-4">AI Expo 2019  aims at being one of the premier events and  will be a medley of technology infused with innovative thinking and inspiration thus making this event an  unforgettable experience for all. If you have a thirst for learning more about the technology behind artificial intelligence or have amazing project ideas and solutions to tackle modern day problems with the help of AI  join us for discovering radical developments in the field of AI and get a chance to meet and interact with brightest minds in the field of technology .</p>
             </div>
             
@@ -219,7 +228,7 @@
                       </div>\
                       \
                   </div>\
-               <p>T-shirt size</p>\
+               <label> T-shirt size</label>\
                   <div class="row s12">\
 \
 \

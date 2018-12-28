@@ -52,9 +52,9 @@
                 <label for="message_lab">Message</label>
             </div>
 
-            <div class="addparticipantbtn">
-              <button type="submit" name="submit" class="btn-floating btn-large waves-effect waves-light red " onClick="clicked()">Submit</button>
-          </div>
+            <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+            <i class="material-icons right">send</i>
+          </button>
 		</form>
 	</div>
 	<br/>
