@@ -33,51 +33,42 @@
     </div>
 
     <div class="container">
-
+        <h1>What is AI fest 2.0</h1>
+        <p ALIGN = justify>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis officia, voluptatum iusto fuga repellat velit perferendis? Corrupti, obcaecati. Doloribus nemo atque delectus animi eaque quaerat excepturi? Eveniet, magni. Iusto in reprehenderit beatae odio praesentium quas excepturi ab quos obcaecati corrupti. Sapiente eos sint vel id corporis iusto animi aliquid neque in aliquam facilis fuga velit harum expedita praesentium, deleniti illo similique blanditiis illum amet, omnis qui ipsa eligendi enim! Unde libero ab rem sed, consectetur officia incidunt dolor, laboriosam dolorem beatae architecto veritatis error vel voluptas. Amet eligendi, corrupti quis modi ex odit soluta qui. Laborum ea deserunt tempore vitae!
+        lorem500</p>
+        <p ALIGN = justify >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, est. Sed enim earum itaque consectetur nesciunt numquam ea, optio ad, harum consequuntur labore impedit voluptatem officia eveniet, inventore quos reiciendis quo facere odio. Commodi asperiores necessitatibus dicta reiciendis eaque? Culpa odio fuga quidem repudiandae? Nam, distinctio, obcaecati delectus unde minus deleniti iure corporis nesciunt quasi excepturi accusamus temporibus atque officiis. Perspiciatis nulla consequuntur beatae cupiditate tempore error repellat qui totam quam eaque molestiae ea illum accusamus suscipit aliquid dolore, iure quisquam nihil consequatur eum consectetur. Animi placeat repudiandae doloribus praesentium? Minima deleniti, corrupti nisi commodi velit temporibus provident, eos at necessitatibus ex odio labore praesentium ea voluptatibus quia beatae repellendus quibusdam impedit obcaecati incidunt eum ut! Harum recusandae nemo sapiente, doloremque doloribus expedita ducimus? Reiciendis ad sit aliquam quis, unde error eius eum corrupti, amet fugiat quaerat iusto? Mollitia veritatis explicabo modi vitae animi illo, nostrum in delectus, doloremque velit maxime molestiae voluptas labore officiis excepturi sunt temporibus totam quae quasi perspiciatis non ipsam dignissimos repudiandae? Consectetur culpa enim sint quam ratione rerum obcaecati nostrum soluta debitis, assumenda incidunt deserunt vel eveniet laboriosam sapiente possimus repudiandae illo commodi laudantium doloremque quia voluptatibus! Itaque, nam provident? Odio ad maxime sed fugit voluptas, omnis accusantium dolorum ab a sunt reiciendis eveniet, iure asperiores exercitationem repellat, nostrum doloribus? Soluta, debitis, tempore corporis, quas mollitia reiciendis libero rem fugit natus dicta asperiores commodi architecto incidunt dolorum tenetur. Assumenda ipsa neque, commodi porro vero laudantium dolor nesciunt eius qui perferendis quas recusandae fugiat incidunt blanditiis atque nihil ab, accusantium iusto! Vel cumque ipsum, cupiditate modi sint officiis quibusdam fuga fugit aliquid eum quod eveniet repellendus dolor repudiandae quas, dolorum deleniti eius doloremque beatae necessitatibus veritatis. Nam voluptatibus eos fugit dicta molestias rerum vel minus reprehenderit at perspiciatis, assumenda ducimus saepe iure excepturi quia aspernatur neque!</p>
         <h1>Our Guests</h1>
 
         <div class="guestinstance">
                 <a href="#modall">
-                        <div class="chip" onclick = "">
+                        <div class="chip" onclick = "alert('praveen sreedhar') ">
                                 <img src="./img/meharmoosa.jpg" alt="Contact Person">
-                                Praveen Sreedhar
+                                Praveen Sreedhar, <label> Google </label> 
                         </div>
                 </a>
                 <div class="chip">
                         <img src="./img/meharmoosa.jpg" alt="Contact Person">
-                        Fariz Rahman
+                        Enfa George, <label> Google </label>
                 </div>
                 <div class="chip">
                         <img src="./img/meharmoosa.jpg" alt="Contact Person">
-                        Faris Khan
+                        Faris Rahman, <label> Google </label>
                 </div>
                 <div class="chip">
                         <img src="./img/meharmoosa.jpg" alt="Contact Person">
-                        Gopikrishnan Sasikumar
+                        Gopikrishnan Sasikumar, <label> Google </label>
                 </div>
                 <div class="chip">
                         <img src="./img/meharmoosa.jpg" alt="Contact Person">
-                        Meh
+                        Kedar Nath, <label> Google </label>
                 </div>
                 <div class="chip">
                         <img src="./img/meharmoosa.jpg" alt="Contact Person">
-                        gopi sasikumar
+                        Sid Agarwal, <label> Google </label>
                 </div>
                 <div class="chip">
                         <img src="./img/meharmoosa.jpg" alt="Contact Person">
-                        kl 
-                </div>
-                <div class="chip">
-                        <img src="./img/meharmoosa.jpg" alt="Contact Person">
-                        Mehar Moosa
-                </div>
-                <div class="chip">
-                        <img src="./img/meharmoosa.jpg" alt="Contact Person">
-                        Mehar Moosa
-                </div>
-                <div class="chip">
-                        <img src="./img/meharmoosa.jpg" alt="Contact Person">
-                        Mehar Moosa
+                        Prathyusha P Simharaju, <label> Google </label>
                 </div>
 
                
