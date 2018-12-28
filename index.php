@@ -21,9 +21,10 @@
 
         <div class="container mainarea">
             <div class="maintextarea">
-                <h1>We Are Back!</h1>
+            <span class="new badge" data-badge-caption="BETA"></span>
+                <h1>We Are Back! </h1>
                 <p>We present you the biggest AI Fest in Kerala in association with IEDC, AI Expo 2019 which will be held on 22nd and 23rd of March 2019.</p>
-                <a class="waves-effect waves-light btn" href="#registration"><i class="material-icons left">stars</i>Register</a>
+                <a class="btn" href="#registration"><i class="material-icons left">stars</i>Register</a>
             </div>
             <div class="imagearea hide-on-small-only">
                 <img src="./img/logo_1.png" alt="">
@@ -135,7 +136,7 @@
       </label>
     </p>
         </div>
-        <button class="btn waves-effect waves-light" type="submit" name="action" id = "regsubmit" disabled>Submit
+        <button class="btn" type="submit" name="action" id = "regsubmit" disabled>Submit
             <i class="material-icons right">send</i>
           </button>
       </form>
@@ -151,7 +152,7 @@
             <div class="col 12 s12">
               <h5 class="white-text">AI FEST 2.0</h5>
               <a href="#"><i class="fab fa-instagram fa-3x footericon"></i></a>
-              <a href="https://github.com/iedccoet" target="_blank"><i class="fab fa-github-square fa-3x footericon"></i></a>
+              <a href="https://github.com/iedccoet/aifestregistration" target="_blank"><i class="fab fa-github-square fa-3x footericon"></i></a>
               <p class="grey-text text-lighten-4">AI Expo 2019  aims at being one of the premier events and  will be a medley of technology infused with innovative thinking and inspiration thus making this event an  unforgettable experience for all. If you have a thirst for learning more about the technology behind artificial intelligence or have amazing project ideas and solutions to tackle modern day problems with the help of AI  join us for discovering radical developments in the field of AI and get a chance to meet and interact with brightest minds in the field of technology .</p>
             </div>
             
