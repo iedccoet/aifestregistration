@@ -23,7 +23,7 @@
             <div class="maintextarea">
             <span class="new badge" data-badge-caption="BETA"></span>
                 <h1>We Are Back! </h1>
-                <p>We present you the biggest AI Fest in Kerala in association with IEDC, AI Expo 2019 which will be held on 22nd and 23rd of March 2019.</p>
+                <p>We present you the biggest AI Fest in Kerala in association with IEDC CoET, AI Expo 2019 which will be held on 22nd and 23rd of March 2019.</p>
                 <a class="btn" href="#registration"><i class="material-icons left">stars</i>Register</a>
             </div>
             <div class="imagearea hide-on-small-only">
