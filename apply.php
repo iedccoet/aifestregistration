@@ -53,7 +53,7 @@
 		window.location.href='index.php';
 		</script>");
 
-	for($i=1;$i<=6;$i++){
+	
 
 		if($first_name1 != "NIL"){
 			$header1="From: registrations@iedccoet.org";
@@ -110,7 +110,7 @@
 		}
 
 
-	}
+	
 
 	echo "<script>
 		alert('Registration is succesfully recorded.');
