@@ -35,7 +35,23 @@
 
     <div class="container">
         <h1>What is AI fest 2.0</h1>
-        <p ALIGN = justify>IEDC of College of Engineering Thalassery has about 15 core members with a strong background in AI and Machine Learning. We have two funded projects- iGATE (Completed-under KSCSTE) and Computer Vision Microscope. iGATE is a railway transportation safety project based on ML capabilities. The latter one Computer Vision Microscope which won the 10th idea fest is currently under development. This project utilizes Machine Learning based analysis to analyze microscopic feed for diseases.</p>
+        <p ALIGN = justify>AI is something that is going to revolutionise our near future. Well, it has already begun.
+          AI does need all the support for increasing the rate of its growth. There are a lot of AI developers and wannabe developers around us. 
+          All of them require a chance to show their potential to the whole world.</p>
+          
+          <p ALIGN = justify>This is the main concept of the AI Fest. It will involve the great thinkers in artificial intelligence, technology and economy, as well as all the tech enthusiasts who are thrilled with the term AI itself. </p>
+
+          <p ALIGN = justify>AI fest builds a platform for AI enthusiasts to showcase their project in front of industrial experts . So they get the opportunity to mingle and share their ideas with the experts from Google, Microsoft and Intel software innovators and well experienced experts from different parts of Kerala in this domain. This will be a very good opportunity to develop your knowledge on AI and to exhibit your talents. AI Fest at College of Engineering Thalassery would be an exciting and inspiring program which includes a lot of stirring events, mind-blowing projects and tons of enjoyment.
+          If you are someone who has done researches on automotive technologies, AI, or ML, then this is the right place and the right time for you to join us.
+          Support and help are provided and are open to everyone.</p>
+          
+          <p ALIGN = justify>This International event will provide you a marvellous opportunity to connect, develop, overcome, benefit, flourish and conquer your dreams and your goals.</p>
+
+          <p ALIGN = justify>AI Fest 2.0 is officially backed by Kerala Startup Mission, Full Contact, India MLCC.</p>
+          <br>
+
+        <!--<p ALIGN = justify>IEDC of College of Engineering Thalassery has about 15 core members with a strong background in AI and Machine Learning. We have two funded projects- iGATE (Completed-under KSCSTE) and Computer Vision Microscope. iGATE is a railway transportation safety project based on ML capabilities. The latter one Computer Vision Microscope which won the 10th idea fest is currently under development. This project utilizes Machine Learning based analysis to analyze microscopic feed for diseases.</p>
+
         <p ALIGN = justify >Thank you for the support provided by Future Technologies Lab and Kerala Start-up Mission. We have obtained much valuable knowledge and contacts to enable us to develop even more innovative ideas. By being involved in these projects candidates have gained the confidence to guide more projects and our IEDC has been conducting programmes such as MLCC (Machine Learning Crash Course) backed by Google to motivate students to be involved in projects. Nowadays many final year projects are also being developed by Machine Learning. Students showed interest to develop their own AI based projects after attending many ML sessions. As a result of that, there are about 11 Machine Learning Projects- now in the design phase and the team leaders are confident enough to complete. Currently, some projects are being developed in-house by the interested candidates. 
         </p>
         <br/>
@@ -72,7 +88,7 @@
         <p ALIGN = justify>10.  Reinforcement  AI Auto Dancer -  Utilizes pose estimation technique to analyze music histogram and using reinforcement learning to train dance moves.</p>
 
         <br>
-        <p ALIGN = justify>11.       Rolleiflex.ai - A camera system which captures images and removes background by holding humans and regenerate images using GAN by placing given background images. Objects are arranged by keeping the size ratio of background images automatically.</p>
+        <p ALIGN = justify>11.       Rolleiflex.ai - A camera system which captures images and removes background by holding humans and regenerate images using GAN by placing given background images. Objects are arranged by keeping the size ratio of background images automatically.</p>-->
 
         <h1>Our Guests</h1>
 
