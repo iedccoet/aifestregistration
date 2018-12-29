@@ -53,6 +53,64 @@
 		window.location.href='index.php';
 		</script>");
 
+	for($i=1;$i<=6;$i++){
+
+		if($email1 != "NIL"){
+			$header1="From: registrations@iedccoet.org";
+    		$subject1="BETA TEST MAIL FOR REGISTRATION";
+    		$to1 = $email1;
+    		$message1 = "Hi $first_name1,\n\nThis is beta test mail from http://aifest.iedccoet.org/ \nThankyou for being a beta tester.\n\nRegards,\nWeb Team,\nIEDC COET.";
+
+    		mail($to1,$subject1,$message1,$header1);
+		}
+
+		if($email2 != "NIL"){
+			$header2="From: registrations@iedccoet.org";
+    		$subject2="BETA TEST MAIL FOR REGISTRATION";
+    		$to2 = $email2;
+    		$message2 = "Hi $first_name2,\n\nThis is beta test mail from http://aifest.iedccoet.org/ \nThankyou for being a beta tester.\n\nRegards,\nWeb Team,\nIEDC COET.";
+
+    		mail($to2,$subject2,$message2,$header2);
+		}
+
+		if($email3 != "NIL"){
+			$header3="From: registrations@iedccoet.org";
+    		$subject3="BETA TEST MAIL FOR REGISTRATION";
+    		$to3 = $email3;
+    		$message3 = "Hi $first_name3,\n\nThis is beta test mail from http://aifest.iedccoet.org/ \nThankyou for being a beta tester.\n\nRegards,\nWeb Team,\nIEDC COET.";
+
+    		mail($to3,$subject3,$message3,$header3);
+		}
+
+		if($email4 != "NIL"){
+			$header4="From: registrations@iedccoet.org";
+    		$subject4="BETA TEST MAIL FOR REGISTRATION";
+    		$to4 = $email4;
+    		$message4 = "Hi $first_name4,\n\nThis is beta test mail from http://aifest.iedccoet.org/ \nThankyou for being a beta tester.\n\nRegards,\nWeb Team,\nIEDC COET.";
+
+    		mail($to4,$subject4,$message4,$header4);
+		}
+
+		if($email5 != "NIL"){
+			$header5="From: registrations@iedccoet.org";
+    		$subject5="BETA TEST MAIL FOR REGISTRATION";
+    		$to5 = $email5;
+    		$message5 = "Hi $first_name5,\n\nThis is beta test mail from http://aifest.iedccoet.org/ \nThankyou for being a beta tester.\n\nRegards,\nWeb Team,\nIEDC COET.";
+
+    		mail($to5,$subject5,$message5,$header5);
+		}
+
+		if($email6 != "NIL"){
+			$header6="From: registrations@iedccoet.org";
+    		$subject6="BETA TEST MAIL FOR REGISTRATION";
+    		$to6 = $email6;
+    		$message6 = "Hi $first_name6,\n\nThis is beta test mail from http://aifest.iedccoet.org/ \nThankyou for being a beta tester.\n\nRegards,\nWeb Team,\nIEDC COET.";
+
+    		mail($to6,$subject6,$message6,$header6);
+		}
+
+
+	}
 
 	echo "<script>
 		alert('Registration is succesfully recorded.');

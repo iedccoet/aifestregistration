@@ -50,6 +50,7 @@ if(isset($_POST["export"]))
 
               <th>Project_Name</th> 
               <th>Project_Description</th>
+              <th>Link</th>
               <th>Accomodation</th>
               <th>Date</th> 
     </tr>
@@ -58,10 +59,10 @@ if(isset($_POST["export"]))
   {
     for($i=1;$i<=6;$i++){
           if($row["first_name$i"]=="NIL"){
-               $row["first_name$i"] = ' ';
-               $row["last_name$i"] = ' ';
-               $row["email$i"] = ' ';
-             $row["tshirt$i"] = ' ';
+              $row["first_name$i"] = ' ';
+              $row["last_name$i"] = ' ';
+              $row["email$i"] = ' ';
+              $row["tshirt$i"] = ' ';
            }
           if($row["mobile$i"] == 0){
              $row["mobile$i"] = ' ';            
@@ -110,6 +111,7 @@ if(isset($_POST["export"]))
 
       <td>'.$row["project_name"].'</td>  
       <td>'.$row["project_desc"].'</td>
+      <td>'.$row["link"].'</td>
       <td>'.$row["accomodation"].'</td>
       <td>'.$row["date_tab"].'</td>
 
