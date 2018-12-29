@@ -219,7 +219,7 @@
         <div class="footer-copyright">
           <div class="container">
           © 2018 
-          <span class="grey-text text-lighten-4 right">made with <i class="fas fa-heart"></i> by IEDC</span>
+          <span class="grey-text text-lighten-4 right">made with <i class="fas fa-heart"></i> by IEDC CoET</span>
           </div>
         </div>
       </footer>
