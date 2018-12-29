@@ -47,7 +47,7 @@
           
           <p ALIGN = justify>This International event will provide you a marvellous opportunity to connect, develop, overcome, benefit, flourish and conquer your dreams and your goals.</p>
 
-          <p ALIGN = justify>AI Fest 2.0 is officially backed by Kerala Startup Mission, Full Contact, India MLCC.</p>
+          <p ALIGN = justify>AI Fest 2.0 is officially backed by Kerala Startup Mission, Full Contact, IndiaMLCC.</p>
           <br>
 
         <!--<p ALIGN = justify>IEDC of College of Engineering Thalassery has about 15 core members with a strong background in AI and Machine Learning. We have two funded projects- iGATE (Completed-under KSCSTE) and Computer Vision Microscope. iGATE is a railway transportation safety project based on ML capabilities. The latter one Computer Vision Microscope which won the 10th idea fest is currently under development. This project utilizes Machine Learning based analysis to analyze microscopic feed for diseases.</p>
