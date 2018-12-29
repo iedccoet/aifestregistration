@@ -54,7 +54,10 @@
 		</script>");
 
 
-	echo '<script>window.location.replace("index.php");</script>';
+	echo "<script>
+		alert('Registration is succesfully recorded.');
+		window.location.href='index.php';
+		</script>";
 
 	die("Thanks for applying");
 

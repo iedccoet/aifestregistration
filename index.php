@@ -35,44 +35,85 @@
 
     <div class="container">
         <h1>What is AI fest 2.0</h1>
-        <p ALIGN = justify>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis officia, voluptatum iusto fuga repellat velit perferendis? Corrupti, obcaecati. Doloribus nemo atque delectus animi eaque quaerat excepturi? Eveniet, magni. Iusto in reprehenderit beatae odio praesentium quas excepturi ab quos obcaecati corrupti. Sapiente eos sint vel id corporis iusto animi aliquid neque in aliquam facilis fuga velit harum expedita praesentium, deleniti illo similique blanditiis illum amet, omnis qui ipsa eligendi enim! Unde libero ab rem sed, consectetur officia incidunt dolor, laboriosam dolorem beatae architecto veritatis error vel voluptas. Amet eligendi, corrupti quis modi ex odit soluta qui. Laborum ea deserunt tempore vitae!
-        lorem500</p>
-        <p ALIGN = justify >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, est. Sed enim earum itaque consectetur nesciunt numquam ea, optio ad, harum consequuntur labore impedit voluptatem officia eveniet, inventore quos reiciendis quo facere odio. Commodi asperiores necessitatibus dicta reiciendis eaque? Culpa odio fuga quidem repudiandae? Nam, distinctio, obcaecati delectus unde minus deleniti iure corporis nesciunt quasi excepturi accusamus temporibus atque officiis. Perspiciatis nulla consequuntur beatae cupiditate tempore error repellat qui totam quam eaque molestiae ea illum accusamus suscipit aliquid dolore, iure quisquam nihil consequatur eum consectetur. Animi placeat repudiandae doloribus praesentium? Minima deleniti, corrupti nisi commodi velit temporibus provident, eos at necessitatibus ex odio labore praesentium ea voluptatibus quia beatae repellendus quibusdam impedit obcaecati incidunt eum ut! Harum recusandae nemo sapiente, doloremque doloribus expedita ducimus? Reiciendis ad sit aliquam quis, unde error eius eum corrupti, amet fugiat quaerat iusto? Mollitia veritatis explicabo modi vitae animi illo, nostrum in delectus, doloremque velit maxime molestiae voluptas labore officiis excepturi sunt temporibus totam quae quasi perspiciatis non ipsam dignissimos repudiandae? Consectetur culpa enim sint quam ratione rerum obcaecati nostrum soluta debitis, assumenda incidunt deserunt vel eveniet laboriosam sapiente possimus repudiandae illo commodi laudantium doloremque quia voluptatibus! Itaque, nam provident? Odio ad maxime sed fugit voluptas, omnis accusantium dolorum ab a sunt reiciendis eveniet, iure asperiores exercitationem repellat, nostrum doloribus? Soluta, debitis, tempore corporis, quas mollitia reiciendis libero rem fugit natus dicta asperiores commodi architecto incidunt dolorum tenetur. Assumenda ipsa neque, commodi porro vero laudantium dolor nesciunt eius qui perferendis quas recusandae fugiat incidunt blanditiis atque nihil ab, accusantium iusto! Vel cumque ipsum, cupiditate modi sint officiis quibusdam fuga fugit aliquid eum quod eveniet repellendus dolor repudiandae quas, dolorum deleniti eius doloremque beatae necessitatibus veritatis. Nam voluptatibus eos fugit dicta molestias rerum vel minus reprehenderit at perspiciatis, assumenda ducimus saepe iure excepturi quia aspernatur neque!</p>
+        <p ALIGN = justify>IEDC of College of Engineering Thalassery has about 15 core members with a strong background in AI and Machine Learning. We have two funded projects- iGATE (Completed-under KSCSTE) and Computer Vision Microscope. iGATE is a railway transportation safety project based on ML capabilities. The latter one Computer Vision Microscope which won the 10th idea fest is currently under development. This project utilizes Machine Learning based analysis to analyze microscopic feed for diseases.</p>
+        <p ALIGN = justify >Thank you for the support provided by Future Technologies Lab and Kerala Start-up Mission. We have obtained much valuable knowledge and contacts to enable us to develop even more innovative ideas. By being involved in these projects candidates have gained the confidence to guide more projects and our IEDC has been conducting programmes such as MLCC (Machine Learning Crash Course) backed by Google to motivate students to be involved in projects. Nowadays many final year projects are also being developed by Machine Learning. Students showed interest to develop their own AI based projects after attending many ML sessions. As a result of that, there are about 11 Machine Learning Projects- now in the design phase and the team leaders are confident enough to complete. Currently, some projects are being developed in-house by the interested candidates. 
+        </p>
+        <br/>
+        <p ALIGN = justify>We are planning to showcase the following projects :-</p>
+        
+        <br>
+        <p ALIGN = justify>1. Ball catching Robot - An articulatory arm to catch balls by judging the trajectory and other physical features of a ball before it reaches the other end. Using ML this project is able to improve throughout its functioning.</p>
+        
+        <br>
+        <p ALIGN = justify>2. Autonomous car - Neural network based car that detects the environmental features and responds accordingly to the present needs</p>
+        
+        <br>
+        <p ALIGN = justify>3. TensorFlow.js ( JavaScript framework for machine learning using TensorFlow) - TensorFlow.js is a framework upon which many browser-based AI games and entertainment activities can be developed. Around ten members under these group are developing different types of AI games using this framework.</p>
+        
+        <br>
+        <p ALIGN = justify>4. Voice Assistant for visually impaired people based on Machine learning -. The application works by coupling with an external camera and headset. We utilize the possibilities of machine learning based object detection to detect objects from the video feeds of the camera placed on the sunglasses. We then use voice assistant technologies to interact with the user through the headset giving the user a clear picture of the environment surrounding him.</p>
+        
+        <br>
+        <p ALIGN = justify>5. Song Genre Classifier - The project aims at classifying songs (basically English) based on their genre. We plan to use machine learning for doing the same. After some research, we decided to use convolutional neural networks with the spectrogram of the songs for classification, as it is being used for speech recognition and other sound related projects.</p>
+        
+        <br>
+        <p ALIGN = justify>6. Plantain leaf disease prediction - Identify the pests and diseases in a plant using it's leaf pictures and a pre-trained neural network</p>
+        
+        <br>
+        <p ALIGN = justify>7. Digi-AID - Digital personal assistant app which uses Augmented Reality. This AR based app enables people with disabilities to rehabilitate.</p>
+        
+        <br>
+        <p ALIGN = justify>8. AI Video player for Cast Recognition - This project aims at creating a video player for recognizing the face in a movie/video. Also trying to create a large dataset of actors and to improve the face recognition accuracy rate.</p>
+        
+        <br>
+        <p ALIGN = justify>9. Face auto unlocks system for traditional doors - This project aims at analyzing facial features to produce a sophisticated locking system.</p>
+
+        <br>
+        <p ALIGN = justify>10.  Reinforcement  AI Auto Dancer -  Utilizes pose estimation technique to analyze music histogram and using reinforcement learning to train dance moves.</p>
+
+        <br>
+        <p ALIGN = justify>11.       Rolleiflex.ai - A camera system which captures images and removes background by holding humans and regenerate images using GAN by placing given background images. Objects are arranged by keeping the size ratio of background images automatically.</p>
+
         <h1>Our Guests</h1>
 
         <div class="guestinstance">
                 <div class="chip">
-                        <img src="./img/meharmoosa.jpg" alt="Contact Person">
-                        Moosa Mehar, <label> Tinkerhub </label>
+                        <img src="./img/prathyusha.jpeg" alt="Contact Person">
+                        Prathyusha P Simharaju, <label> Google </label>
                 </div>
-                <div class="chip" onclick = "alert('praveen sreedhar') ">
-                    <img src="./img/praveen.jpg" alt="Contact Person">
-                    Praveen Sreedhar, <label> Tinkerhub </label> 
+                <div class="chip">
+                        <img src="./img/sidagarwal.jpg" alt="Contact Person">
+                        Siddhant Agarwal, <label> Intel Software Innovator </label>
+                </div>
+                <div class="chip">
+                        <img src="./img/kedar_nath.png" alt="Contact Person">
+                        Kedar Nath Narahari, <label> Microsoft </label>
                 </div>
                 <div class="chip">
                         <img src="./img/enfageorge.jpeg" alt="Contact Person">
-                        Enfa George, <label> Tinkerhub </label>
+                        Enfa Rose George, <label> TurboLab Technologies </label>
                 </div>
                 <div class="chip">
-                        <img src="./img/farizrahman.jpeg" alt="Contact Person">
-                        Faris Rahman, <label> Tinkerhub </label>
+                        <img src="./img/meharmoosa.jpg" alt="Contact Person">
+                        Moosa Mehar, <label> Tinkerhub </label>
                 </div>
                 <div class="chip">
                         <img src="./img/gopi.jpeg" alt="Contact Person">
                         Gopikrishnan S, <label> Tinkerhub </label>
                 </div>
-                <div class="chip">
-                        <img src="./img/meharmoosa.jpg" alt="Contact Person">
-                        Kedar Nath, <label> Microsoft </label>
+                <div class="chip" onclick = "">
+                    <img src="./img/praveen.jpg" alt="Contact Person">
+                    Praveen Sreedhar, <label> Tinkerhub </label> 
                 </div>
+                
                 <div class="chip">
-                        <img src="./img/sidagarwal.jpg" alt="Contact Person">
-                        Sid Agarwal, <label> Google </label>
+                        <img src="./img/farizrahman.jpeg" alt="Contact Person">
+                        Faris Rahman, <label> Tinkerhub </label>
                 </div>
-                <div class="chip">
-                        <img src="./img/prathyusha.jpeg" alt="Contact Person">
-                        Prathyusha P Simharaju, <label> Google </label>
-                </div>
+                
+                
+                
+                
 
                
         </div>
@@ -81,15 +122,16 @@
 
     <div class="registrationform " id="registration">
         <h2>Registration</h2>
-        <label><i class="fas fa-info-circle"></i> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis repellat error odio ducimus velit reprehenderit, nesciunt praesentium et itaque nam assumenda voluptatibus. Perferendis magnam velit quis! Nulla itaque quisquam aut dolores molestiae. Praesentium nam aliquam ipsa possimus aperiam mollitia commodi?</label>
+        <label><i class="fas fa-info-circle"></i> We are also looking forward to hosting AI based projects from all around India to exhibit their creations and ingenuity. For the development purpose of these projects, we hope we can set up a similar environment like Future Technologies Lab in our college and provide student developers with all the needed tools and services. For 
+        exhibiting your project at the AI Fest register here.</label>
         <form action="apply.php" method="POST">
         
             <div class="input-field col s12">
-                <input id="project_name" type="text" class="validate" name="project_name">
+                <input id="project_name" type="text" class="validate" name="project_name" required>
                 <label for="project_name">Project Name</label>
             </div>
             <div class="input-field col s12">
-                <textarea id="description" class="materialize-textarea" name="project_desc"></textarea>
+                <textarea id="description" class="materialize-textarea" name="project_desc" required></textarea>
                 <label for="description">Description</label>
             </div>
             <div class="input-field col s12">
@@ -132,11 +174,12 @@
         <p>
       <label>
         <input type="checkbox" onchange="document.getElementById('regsubmit').disabled = !this.checked;"/>
-        <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur nemo, inventore dicta voluptatibus quo aspernatur amet, reprehenderit fugit adipisci iure doloribus sunt commodi? Officiis dolorum est maxime earum fuga minus!</span>
+        <span>As part of the transportation, food and accomodation(if required) each person will be charged a small amount of fee. The amount will be notified later on. Please tick
+        off the checkbox and submit your application if you accept the condition.</span>
       </label>
     </p>
         </div>
-        <button class="btn" type="submit" name="action" id = "regsubmit" disabled>Submit
+        <button class="btn" type="submit" name="action" id = "regsubmit" onclick= "show_message()" disabled>Submit
             <i class="material-icons right">send</i>
           </button>
       </form>
@@ -174,9 +217,6 @@
             M.Toast.dismissAll();
             M.toast({html: a});
         }
-
-
-
   
 	function remove(){
     if(i <= 1){
@@ -200,24 +240,24 @@
                     <h2 class="cardheading">Participant #'+i+'</h2>\
                     <div class="row">\
                       <div class="input-field col s6">\
-                        <input  id="first_name'+i+'" name="first_name'+i+'" type="text" class="validate">\
+                        <input  id="first_name'+i+'" name="first_name'+i+'" type="text" class="validate" required>\
                         <label for="first_name'+i+'">First Name</label>\
                       </div>\
                     <div class="input-field col s6">\
-                      <input  id="last_name'+i+'" name="last_name'+i+'" type="text" class="validate">\
+                      <input  id="last_name'+i+'" name="last_name'+i+'" type="text" class="validate" required>\
                       <label for="last_name'+i+'">Last Name</label>\
                     </div>\
                   </div>\
                   <div class="row">\
                     <div class="input-field col s12">\
-                      <input id="email'+i+'" name="email'+i+'" type="email" class="validate">\
+                      <input id="email'+i+'" name="email'+i+'" type="email" class="validate" required>\
                       <label for="email'+i+'">Email</label>\
                       <span class="" data-error="wrong" data-success="right"></span>\
                     </div>\
                   </div>\
                   <div class="row">\
                     <div class="input-field col s6">\
-                        <input id="number'+i+'" name="mobile'+i+'" type="text" class="validate">\
+                        <input id="number'+i+'" name="mobile'+i+'" type="text" class="validate" required>\
                         <label for="number'+i+'">Mobile N.o</label>\
                       </div>\
                       \
