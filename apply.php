@@ -55,7 +55,7 @@
 
 	for($i=1;$i<=6;$i++){
 
-		if($email1 != "NIL"){
+		if($first_name1 != "NIL"){
 			$header1="From: registrations@iedccoet.org";
     		$subject1="BETA TEST MAIL FOR REGISTRATION";
     		$to1 = $email1;
@@ -64,7 +64,7 @@
     		mail($to1,$subject1,$message1,$header1);
 		}
 
-		if($email2 != "NIL"){
+		if($first_name2 != "NIL"){
 			$header2="From: registrations@iedccoet.org";
     		$subject2="BETA TEST MAIL FOR REGISTRATION";
     		$to2 = $email2;
@@ -73,7 +73,7 @@
     		mail($to2,$subject2,$message2,$header2);
 		}
 
-		if($email3 != "NIL"){
+		if($first_name3 != "NIL"){
 			$header3="From: registrations@iedccoet.org";
     		$subject3="BETA TEST MAIL FOR REGISTRATION";
     		$to3 = $email3;
@@ -82,7 +82,7 @@
     		mail($to3,$subject3,$message3,$header3);
 		}
 
-		if($email4 != "NIL"){
+		if($first_name4 != "NIL"){
 			$header4="From: registrations@iedccoet.org";
     		$subject4="BETA TEST MAIL FOR REGISTRATION";
     		$to4 = $email4;
@@ -91,7 +91,7 @@
     		mail($to4,$subject4,$message4,$header4);
 		}
 
-		if($email5 != "NIL"){
+		if($first_name5 != "NIL"){
 			$header5="From: registrations@iedccoet.org";
     		$subject5="BETA TEST MAIL FOR REGISTRATION";
     		$to5 = $email5;
@@ -100,7 +100,7 @@
     		mail($to5,$subject5,$message5,$header5);
 		}
 
-		if($email6 != "NIL"){
+		if($first_name6 != "NIL"){
 			$header6="From: registrations@iedccoet.org";
     		$subject6="BETA TEST MAIL FOR REGISTRATION";
     		$to6 = $email6;

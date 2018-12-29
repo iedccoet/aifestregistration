@@ -79,7 +79,7 @@
         <div class="guestinstance">
                 <div class="chip">
                         <img src="./img/prathyusha.jpeg" alt="Contact Person">
-                        Prathyusha P Simharaju, <label> Google </label>
+                        Pratyusha Simharaju, <label> Google </label>
                 </div>
                 <div class="chip">
                         <img src="./img/sidagarwal.jpg" alt="Contact Person">
@@ -108,7 +108,7 @@
                 
                 <div class="chip">
                         <img src="./img/farizrahman.jpeg" alt="Contact Person">
-                        Faris Rahman, <label> Tinkerhub </label>
+                        Faris Rahman, <label> Skymind.ai </label>
                 </div>
                 
                 
