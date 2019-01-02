@@ -4,6 +4,7 @@
     $subject=$_POST["subject_contact"]; 
     $sender=$_POST["name_contact"];
     $email=$_POST["email_contact"];
+    $from="From: $email";
     $message=$_POST["message"];
     $date = date('Y-m-d');
     include_once('conn.php');
@@ -14,7 +15,7 @@
     //sending to help@iedccoet.org
     $body = "From : $sender \n\n Email id : $email \n\n Content: $message";
     
-    mail($recipient,$subject,$body);
+    mail($recipient,$subject,$body,$from);
     sleep(1);
 
 }
