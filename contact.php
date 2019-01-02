@@ -5,7 +5,13 @@
     $sender=$_POST["name_contact"];
     $email=$_POST["email_contact"];
     $message=$_POST["message"];
-    
+    $date = date('Y-m-d');
+    include_once('conn.php');
+    //inserting in db
+    mysqli_query($con, "INSERT INTO contact(name, email, message, date_tab)
+        VALUES('$sender','$email','$message','$date')") or die("Unable to contact.");    
+
+    //sending to help@iedccoet.org
     $body = "From : $sender \n\n Email id : $email \n\n Content: $message";
     
     mail($recipient,$subject,$body);
