@@ -59,7 +59,7 @@
                 <label for="message_lab">Message</label>
             </div>
 
-            <button class="btn" type="submit" name="submit">Send
+            <button class="btn" type="submit" name="submit" onclick="clicked()">Send
             <i class="material-icons right">send</i>
           </button>
 		</form>
