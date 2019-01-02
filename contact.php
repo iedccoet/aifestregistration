@@ -13,7 +13,7 @@
         VALUES('$sender','$email','$message','$date')") or die("Unable to contact.");    
 
     //sending to help@iedccoet.org
-    $body = "From : $sender \n\n Email id : $email \n\n Content: $message";
+    $body = "From : $sender\n\nEmail id : $email\n\nMessage: $message";
     
     mail($recipient,$subject,$body,$from);
     sleep(1);
