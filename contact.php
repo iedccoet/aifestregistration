@@ -1,5 +1,5 @@
 <?php
-    if(isset($_POST["submit"])){
+    if(isset($_POST["send"])){
     $recipient="help@iedccoet.org";
     $subject=$_POST["subject_contact"]; 
     $sender=$_POST["name_contact"];
