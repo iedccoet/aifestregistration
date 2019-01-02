@@ -38,7 +38,7 @@
 <body>
 	<div class="registrationform container" id="contact">
 		<h2>Contact Us</h2>
-		<form method="POST">
+		<form method="POST" name="Form">
 			<div class="input-field col s12">
                 <input id="name_contact_lab" type="text" class="validate" name="name_contact" required>
                 <label for="name_contact_lab">Name</label>
@@ -59,7 +59,7 @@
                 <label for="message_lab">Message</label>
             </div>
 
-            <button class="btn" type="submit" name="submit" onclick="clicked()">Send
+            <button class="btn" type="submit" name="submit" onclick="return clicked()">Send
             <i class="material-icons right">send</i>
           </button>
 		</form>
@@ -85,9 +85,14 @@
     }
     
     function clicked(){
+        var a=document.forms["Form"]["name_contact"].value;
+        var b=document.forms["Form"]["email_contact"].value;
+        var c=document.forms["Form"]["subject_contact"].value;
+        if (a!=null || a!="",b==null || b!="",c==null || c!=""){
         add_one();
         toastit("We will get back to you soon.");
         reset;
+        }
     }
 </script>
 </script>
