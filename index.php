@@ -1,3 +1,166 @@
+
+<?php
+  include_once('apply.php');
+/*
+  if(isset($_POST['submit_registration'])){
+    $first_name1 = pickup('first_name1');
+    $last_name1 = pickup('last_name1');
+    $email1 = pickup('email1');
+    $mobile1 = pickup_3('mobile1'); 
+    $tshirt1 = pickup_2('group31');
+    
+    $first_name2 = pickup('first_name2');
+    $last_name2 = pickup('last_name2');
+    $email2 = pickup('email2');
+    $mobile2 = pickup_3('mobile2'); 
+    $tshirt2 = pickup_2('group32');
+
+    $first_name3 = pickup('first_name3');
+    $last_name3 = pickup('last_name3');
+    $email3 = pickup('email3');
+    $mobile3 = pickup_3('mobile3'); 
+    $tshirt3 = pickup_2('group33');
+
+    $first_name4 = pickup('first_name4');
+    $last_name4 = pickup('last_name4');
+    $email4 = pickup('email4');
+    $mobile4 = pickup_3('mobile4'); 
+    $tshirt4 = pickup_2('group34');
+
+    $first_name5 = pickup('first_name5');
+    $last_name5 = pickup('last_name5');
+    $email5 = pickup('email5');
+    $mobile5 = pickup_3('mobile5'); 
+    $tshirt5 = pickup_2('group35');
+
+    $first_name6 = pickup('first_name6');
+    $last_name6 = pickup('last_name6');
+    $email6 = pickup('email6');
+    $mobile6 = pickup_3('mobile6'); 
+    $tshirt6 = pickup_2('group36');
+
+    $project = pickup('project_name');  
+    $project_desc = pickup('project_desc'); 
+    $accomodation = pickup('accomodation');
+    $link = pickup('video_link');
+
+    include_once('conn.php');
+
+    $date = date('Y-m-d');
+
+    mysqli_query($con, "INSERT INTO register_stall(first_name1, last_name1 , email1, mobile1, tshirt1, first_name2, last_name2 , email2, mobile2,tshirt2, first_name3, last_name3 , email3, mobile3, tshirt3, first_name4, last_name4 , email4, mobile4, tshirt4, first_name5, last_name5 , email5, mobile5, tshirt5, first_name6, last_name6 , email6, mobile6, tshirt6, project_name, project_desc,link,accomodation1 ,date_tab)
+      
+      VALUES('$first_name1', '$last_name1','$email1','$mobile1', '$tshirt1','$first_name2', '$last_name2','$email2','$mobile2', '$tshirt2', '$first_name3', '$last_name3','$email3','$mobile3', '$tshirt3', '$first_name4', '$last_name4','$email4','$mobile4', '$tshirt4', '$first_name5', '$last_name5','$email5','$mobile5', '$tshirt5', '$first_name6', '$last_name6','$email6','$mobile6', '$tshirt6', '$project', '$project_desc','$link','$accomodation','$date')") or die("<script>
+      alert('Unable to register. Please try again.');
+      window.location.href='index.php';
+      </script>");
+
+    
+
+      if($first_name1 != "NIL"){
+        $header1="From: registrations@iedccoet.org";
+          $subject1="BETA TEST MAIL FOR REGISTRATION";
+          $to1 = $email1;
+          $message1 = "Hi $first_name1,\n\nThis is beta test mail from http://aifest.iedccoet.org/ \nThankyou for being a beta tester.\n\nRegards,\nWeb Team,\nIEDC COET.";
+
+          mail($to1,$subject1,$message1,$header1);
+      }
+
+      if($first_name2 != "NIL"){
+        $header2="From: registrations@iedccoet.org";
+          $subject2="BETA TEST MAIL FOR REGISTRATION";
+          $to2 = $email2;
+          $message2 = "Hi $first_name2,\n\nThis is beta test mail from http://aifest.iedccoet.org/ \nThankyou for being a beta tester.\n\nRegards,\nWeb Team,\nIEDC COET.";
+
+          mail($to2,$subject2,$message2,$header2);
+      }
+
+      if($first_name3 != "NIL"){
+        $header3="From: registrations@iedccoet.org";
+          $subject3="BETA TEST MAIL FOR REGISTRATION";
+          $to3 = $email3;
+          $message3 = "Hi $first_name3,\n\nThis is beta test mail from http://aifest.iedccoet.org/ \nThankyou for being a beta tester.\n\nRegards,\nWeb Team,\nIEDC COET.";
+
+          mail($to3,$subject3,$message3,$header3);
+      }
+
+      if($first_name4 != "NIL"){
+        $header4="From: registrations@iedccoet.org";
+          $subject4="BETA TEST MAIL FOR REGISTRATION";
+          $to4 = $email4;
+          $message4 = "Hi $first_name4,\n\nThis is beta test mail from http://aifest.iedccoet.org/ \nThankyou for being a beta tester.\n\nRegards,\nWeb Team,\nIEDC COET.";
+
+          mail($to4,$subject4,$message4,$header4);
+      }
+
+      if($first_name5 != "NIL"){
+        $header5="From: registrations@iedccoet.org";
+          $subject5="BETA TEST MAIL FOR REGISTRATION";
+          $to5 = $email5;
+          $message5 = "Hi $first_name5,\n\nThis is beta test mail from http://aifest.iedccoet.org/ \nThankyou for being a beta tester.\n\nRegards,\nWeb Team,\nIEDC COET.";
+
+          mail($to5,$subject5,$message5,$header5);
+      }
+
+      if($first_name6 != "NIL"){
+        $header6="From: registrations@iedccoet.org";
+          $subject6="BETA TEST MAIL FOR REGISTRATION";
+          $to6 = $email6;
+          $message6 = "Hi $first_name6,\n\nThis is beta test mail from http://aifest.iedccoet.org/ \nThankyou for being a beta tester.\n\nRegards,\nWeb Team,\nIEDC COET.";
+
+          mail($to6,$subject6,$message6,$header6);
+      }
+
+
+    
+
+    echo "<script>
+      alert('Registration is succesfully recorded.');
+      window.location.href='index.php';
+      </script>";
+
+    die("Thanks for applying");
+
+  }
+
+  function pickup($box){
+    if(!isset($_POST[$box])){
+      $data = "NIL";
+      return $data;
+    }
+    $data = $_POST[$box];
+    $data = trim($data);
+    $data = stripslashes($data);
+    $data = htmlspecialchars($data);
+    return $data;
+  }
+
+  function pickup_2($box){
+    if(isset($_POST[$box])){
+      $data = $_POST[$box];
+      $data = trim($data);
+      $data = stripslashes($data);
+      $data = htmlspecialchars($data);
+      return $data;
+    }
+    $data ="NIL";
+    return $data;
+  }
+
+  function pickup_3($box){
+    if(!isset($_POST[$box])){
+      $data = 000;
+      return $data;
+    }
+    $data = $_POST[$box];
+    $data = trim($data);
+    $data = stripslashes($data);
+    $data = htmlspecialchars($data);
+    return $data;
+  }
+*/
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,6 +184,7 @@
 
         <div class="container mainarea">
             <div class="maintextarea">
+            <span class="new badge" data-badge-caption="BETA"></span>
                 <h1>We Are Back! </h1>
                 <p>We present you the biggest AI Fest in Kerala in association with IEDC CoET, AI Expo 2019 which will be held on 22nd and 23rd of March 2019.</p>
                 <a class="btn" href="#registration"><i class="material-icons left">stars</i>Register</a>
@@ -137,9 +301,9 @@
 
     <div class="registrationform " id="registration">
         <h2>Registration</h2>
-        <label><i class="fas fa-info-circle"></i> We are looking forward to hosting AI based projects from all around India to exhibit their creations and ingenuity. For the development purpose of these projects, we hope we can set up a similar environment like Future Technologies Lab in our college and provide student developers with all the needed tools and services. For 
+        <label><i class="fas fa-info-circle"></i> We are also looking forward to hosting AI based projects from all around India to exhibit their creations and ingenuity. For the development purpose of these projects, we hope we can set up a similar environment like Future Technologies Lab in our college and provide student developers with all the needed tools and services. For 
         exhibiting your project at the AI Fest register here.</label>
-        <form action="apply.php" method="POST">
+        <form action="" method="POST">
         
             <div class="input-field col s12">
                 <input id="project_name" type="text" class="validate" name="project_name" required>
@@ -194,7 +358,7 @@
       </label>
     </p>
         </div>
-        <button class="btn" type="submit" name="action" id = "regsubmit" onclick= "show_message()" disabled>Submit
+        <button class="btn" type="submit" name="submit_registration" id = "regsubmit" onclick= "show_message()" disabled>Submit
             <i class="material-icons right">send</i>
           </button>
       </form>
@@ -209,7 +373,7 @@
           <div class="row">
             <div class="col 12 s12">
               <h5 class="white-text">AI FEST 2.0</h5>
-              <a href="https://www.instagram.com/ai_fest2.0_official/"><i class="fab fa-instagram fa-3x footericon"></i></a>
+              <a href="#"><i class="fab fa-instagram fa-3x footericon"></i></a>
               <a href="https://github.com/iedccoet/aifestregistration" target="_blank"><i class="fab fa-github-square fa-3x footericon"></i></a>
               <p class="grey-text text-lighten-4">AI Expo 2019  aims at being one of the premier events and  will be a medley of technology infused with innovative thinking and inspiration thus making this event an  unforgettable experience for all. If you have a thirst for learning more about the technology behind artificial intelligence or have amazing project ideas and solutions to tackle modern day problems with the help of AI  join us for discovering radical developments in the field of AI and get a chance to meet and interact with brightest minds in the field of technology .</p>
             </div>
@@ -217,7 +381,7 @@
         </div>
         <div class="footer-copyright">
           <div class="container">
-          © 2019 
+          © 2018 
           <span class="grey-text text-lighten-4 right">made with <i class="fas fa-heart"></i> by IEDC CoET</span>
           </div>
         </div>
@@ -252,7 +416,7 @@
 			return;
 		}
 		var detail = '<div class="participant z-depth-3" id = "card'+i+'">\
-                    <h2 class="cardheading">Team member #'+i+'</h2>\
+                    <h2 class="cardheading">Participant #'+i+'</h2>\
                     <div class="row">\
                       <div class="input-field col s6">\
                         <input  id="first_name'+i+'" name="first_name'+i+'" type="text" class="validate" required>\
