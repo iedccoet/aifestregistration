@@ -57,9 +57,15 @@
 
 		if($first_name1 != "NIL"){
 			$header1="From: registrations@iedccoet.org";
-    		$subject1="BETA TEST MAIL FOR REGISTRATION";
+    		$subject1="CONGRATULATIONS! HERES YOUR REGISTRATION FOR AI FEST 2.0";
     		$to1 = $email1;
-    		$message1 = "Hi $first_name1,\n\nThis is beta test mail from http://aifest.iedccoet.org/ \nThankyou for being a beta tester.\n\nRegards,\nWeb Team,\nIEDC COET.";
+    		$message1 = "Hi $first_name1,\n\nYour registration was succesfully recorded.\n
+    					We are excited to have you onboard this event.\n
+    					Our team will get in touch with you soon.\n
+			    		The event is on March 22nd and 23rd of 2019.\n
+			    		See you then.
+
+			    		\n\nRegards,\nTeam AI FEST 2.0,\nIEDC CoET.";
 
     		mail($to1,$subject1,$message1,$header1);
 		}
@@ -68,7 +74,14 @@
 			$header2="From: registrations@iedccoet.org";
     		$subject2="BETA TEST MAIL FOR REGISTRATION";
     		$to2 = $email2;
-    		$message2 = "Hi $first_name2,\n\nThis is beta test mail from http://aifest.iedccoet.org/ \nThankyou for being a beta tester.\n\nRegards,\nWeb Team,\nIEDC COET.";
+    		$message2 = "Hi $first_name2,\n\nYour registration was succesfully recorded.\n
+    					We are excited to have you onboard this event.\n
+    					Our team will get in touch with you soon.\n
+			    		The event is on March 22nd and 23rd of 2019.\n
+			    		See you then.
+
+			    		\n\nRegards,\nTeam AI FEST 2.0,\nIEDC CoET.";
+
 
     		mail($to2,$subject2,$message2,$header2);
 		}
@@ -77,7 +90,14 @@
 			$header3="From: registrations@iedccoet.org";
     		$subject3="BETA TEST MAIL FOR REGISTRATION";
     		$to3 = $email3;
-    		$message3 = "Hi $first_name3,\n\nThis is beta test mail from http://aifest.iedccoet.org/ \nThankyou for being a beta tester.\n\nRegards,\nWeb Team,\nIEDC COET.";
+    		$message3 = "Hi $first_name3,\n\nYour registration was succesfully recorded.\n
+    					We are excited to have you onboard this event.\n
+    					Our team will get in touch with you soon.\n
+			    		The event is on March 22nd and 23rd of 2019.\n
+			    		See you then.
+
+			    		\n\nRegards,\nTeam AI FEST 2.0,\nIEDC CoET.";
+
 
     		mail($to3,$subject3,$message3,$header3);
 		}
@@ -86,7 +106,13 @@
 			$header4="From: registrations@iedccoet.org";
     		$subject4="BETA TEST MAIL FOR REGISTRATION";
     		$to4 = $email4;
-    		$message4 = "Hi $first_name4,\n\nThis is beta test mail from http://aifest.iedccoet.org/ \nThankyou for being a beta tester.\n\nRegards,\nWeb Team,\nIEDC COET.";
+    		$message4 = "Hi $first_name4,\n\nYour registration was succesfully recorded.\n
+    					We are excited to have you onboard this event.\n
+    					Our team will get in touch with you soon.\n
+			    		The event is on March 22nd and 23rd of 2019.\n
+			    		See you then.
+
+			    		\n\nRegards,\nTeam AI FEST 2.0,\nIEDC CoET.";
 
     		mail($to4,$subject4,$message4,$header4);
 		}
@@ -95,7 +121,14 @@
 			$header5="From: registrations@iedccoet.org";
     		$subject5="BETA TEST MAIL FOR REGISTRATION";
     		$to5 = $email5;
-    		$message5 = "Hi $first_name5,\n\nThis is beta test mail from http://aifest.iedccoet.org/ \nThankyou for being a beta tester.\n\nRegards,\nWeb Team,\nIEDC COET.";
+    		$message5 = "Hi $first_name5,\n\nYour registration was succesfully recorded.\n
+    					We are excited to have you onboard this event.\n
+    					Our team will get in touch with you soon.\n
+			    		The event is on March 22nd and 23rd of 2019.\n
+			    		See you then.
+
+			    		\n\nRegards,\nTeam AI FEST 2.0,\nIEDC CoET.";
+
 
     		mail($to5,$subject5,$message5,$header5);
 		}
@@ -104,7 +137,14 @@
 			$header6="From: registrations@iedccoet.org";
     		$subject6="BETA TEST MAIL FOR REGISTRATION";
     		$to6 = $email6;
-    		$message6 = "Hi $first_name6,\n\nThis is beta test mail from http://aifest.iedccoet.org/ \nThankyou for being a beta tester.\n\nRegards,\nWeb Team,\nIEDC COET.";
+    		$message6 = "Hi $first_name6,\n\nYour registration was succesfully recorded.\n
+    					We are excited to have you onboard this event.\n
+    					Our team will get in touch with you soon.\n
+			    		The event is on March 22nd and 23rd of 2019.\n
+			    		See you then.
+
+			    		\n\nRegards,\nTeam AI FEST 2.0,\nIEDC CoET.";
+
 
     		mail($to6,$subject6,$message6,$header6);
 		}
