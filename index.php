@@ -137,7 +137,7 @@
 
     <div class="registrationform " id="registration">
         <h2>Registration</h2>
-        <label><i class="fas fa-info-circle"></i> We are also looking forward to hosting AI based projects from all around India to exhibit their creations and ingenuity. For the development purpose of these projects, we hope we can set up a similar environment like Future Technologies Lab in our college and provide student developers with all the needed tools and services. For 
+        <label><i class="fas fa-info-circle"></i> We are looking forward to hosting AI based projects from all around India to exhibit their creations and ingenuity. For the development purpose of these projects, we hope we can set up a similar environment like Future Technologies Lab in our college and provide student developers with all the needed tools and services. For 
         exhibiting your project at the AI Fest register here.</label>
         <form action="apply.php" method="POST">
         
