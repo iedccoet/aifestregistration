@@ -1,5 +1,5 @@
 <?php
-    if(isset($_POST["send"])){
+    if(isset($_POST["submit"])){
     $recipient="help@iedccoet.org";
     $subject=$_POST["subject_contact"]; 
     $sender=$_POST["name_contact"];
@@ -59,7 +59,7 @@
                 <label for="message_lab">Message</label>
             </div>
 
-            <button class="btn" type="submit" name="action">Send
+            <button class="btn" type="submit" name="submit">Send
             <i class="material-icons right">send</i>
           </button>
 		</form>
