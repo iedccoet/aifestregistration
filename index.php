@@ -21,7 +21,6 @@
 
         <div class="container mainarea">
             <div class="maintextarea">
-            <span class="new badge" data-badge-caption="BETA"></span>
                 <h1>We Are Back! </h1>
                 <p>We present you the biggest AI Fest in Kerala in association with IEDC CoET, AI Expo 2019 which will be held on 22nd and 23rd of March 2019.</p>
                 <a class="btn" href="#registration"><i class="material-icons left">stars</i>Register</a>
@@ -210,7 +209,7 @@
           <div class="row">
             <div class="col 12 s12">
               <h5 class="white-text">AI FEST 2.0</h5>
-              <a href="#"><i class="fab fa-instagram fa-3x footericon"></i></a>
+              <a href="https://www.instagram.com/ai_fest2.0_official/"><i class="fab fa-instagram fa-3x footericon"></i></a>
               <a href="https://github.com/iedccoet/aifestregistration" target="_blank"><i class="fab fa-github-square fa-3x footericon"></i></a>
               <p class="grey-text text-lighten-4">AI Expo 2019  aims at being one of the premier events and  will be a medley of technology infused with innovative thinking and inspiration thus making this event an  unforgettable experience for all. If you have a thirst for learning more about the technology behind artificial intelligence or have amazing project ideas and solutions to tackle modern day problems with the help of AI  join us for discovering radical developments in the field of AI and get a chance to meet and interact with brightest minds in the field of technology .</p>
             </div>
@@ -218,7 +217,7 @@
         </div>
         <div class="footer-copyright">
           <div class="container">
-          © 2018 
+          © 2019 
           <span class="grey-text text-lighten-4 right">made with <i class="fas fa-heart"></i> by IEDC CoET</span>
           </div>
         </div>
@@ -253,7 +252,7 @@
 			return;
 		}
 		var detail = '<div class="participant z-depth-3" id = "card'+i+'">\
-                    <h2 class="cardheading">Participant #'+i+'</h2>\
+                    <h2 class="cardheading">Team member #'+i+'</h2>\
                     <div class="row">\
                       <div class="input-field col s6">\
                         <input  id="first_name'+i+'" name="first_name'+i+'" type="text" class="validate" required>\
