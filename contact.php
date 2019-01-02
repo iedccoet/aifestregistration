@@ -40,17 +40,17 @@
 		<h2>Contact Us</h2>
 		<form method="POST">
 			<div class="input-field col s12">
-                <input id="name_contact_lab" type="text" class="validate" name="name_contact">
+                <input id="name_contact_lab" type="text" class="validate" name="name_contact" required>
                 <label for="name_contact_lab">Name</label>
             </div>
 
             <div class="input-field col s12">
-                <input id="email_contact_lab" type="text" class="validate" name="email_contact">
+                <input id="email_contact_lab" type="text" class="validate" name="email_contact" required>
                 <label for="email_contact_lab">Email</label>
             </div>
 
             <div class="input-field col s12">
-                <input id="subject_contact_lab" type="text" class="validate" name="subject_contact">
+                <input id="subject_contact_lab" type="text" class="validate" name="subject_contact" required>
                 <label for="subject_contact_lab">Subject</label>
             </div>
 
