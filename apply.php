@@ -53,7 +53,7 @@
       window.location.href='index.php';
       </script>");
 
-    
+    include_once('email_db.php');
 
       if($first_name1 != "NIL"){
         $header1="From: registrations@iedccoet.org";
