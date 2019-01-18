@@ -1,6 +1,7 @@
 
 <?php
   include_once('apply.php');
+  include_once('startup.php');
 ?>
 
 <!DOCTYPE html>
@@ -148,18 +149,18 @@
         
             <div class="input-field col s12">
                 <input id="project_name" type="text" class="validate" name="project_name" required>
-                <label for="project_name">Project Name</label>
+                <label for="project_name">Project Name<span class="make_red">*</span></label>
             </div>
             <div class="input-field col s12">
                 <textarea id="description" class="materialize-textarea" name="project_desc" required></textarea>
-                <label for="description">Description</label>
+                <label for="description">Description<span class="make_red">*</span></label>
             </div>
             <div class="input-field col s12">
                 <input id="video_link" type="text" class="validate" name="video_link">
                 <label for="video_link">Compressed 2 min Video Link (youtube)</label>
             </div>
             <div>
-              <label>Accomodation required?</label><br>
+              <label>Accomodation required?<span class="make_red">*</span></label><br>
                   <label>
                     <input class="with-gap" name="accomodation" type="radio"  value="Yes"/>
                     <span>Yes</span>
@@ -172,7 +173,7 @@
             </div>
 
             <div><br>
-              <label>Category Of the Project</label><br>
+              <label>Category Of the Project<span class="make_red">*</span></label><br>
                   <label>
                     <input class="with-gap" name="category" type="radio"  value="hardware"/>
                     <span>Hardware</span>
@@ -185,7 +186,7 @@
             </div>
 
             <div><br>
-              <label>Project Status</label><br>
+              <label>Project Status<span class="make_red">*</span></label><br>
                   <label>
                     <input class="with-gap" name="status" type="radio"  value="ideation"/>
                     <span>Ideation</span>
@@ -202,8 +203,8 @@
             </div>
 
             <div class = "center">
-            <a class=" btn"  onclick= "teaminit()" style = "margin:20px;">Register as a Team</a>
-            <a class="btn" style = "margin:20px;" onclick = "startupinit()">Register as Startup</a>
+            <a class=" btn"  onclick= "teaminit(); changetoreg();" style = "margin:20px;">Register as a Team</a>
+            <a class="btn" style = "margin:20px;" onclick = "startupinit(); changetostp();">Register as Startup</a>
             </div>
             <div id="details_1"></div>
             <div id="details_2"></div>
@@ -320,28 +321,28 @@
                     <div class="row">\
                       <div class="input-field col s6">\
                         <input  id="first_name'+i+'" name="first_name'+i+'" type="text" class="validate" required>\
-                        <label for="first_name'+i+'">First Name</label>\
+                        <label for="first_name'+i+'">First Name<span class="make_red">*</span></label>\
                       </div>\
                     <div class="input-field col s6">\
                       <input  id="last_name'+i+'" name="last_name'+i+'" type="text" class="validate" required>\
-                      <label for="last_name'+i+'">Last Name</label>\
+                      <label for="last_name'+i+'">Last Name<span class="make_red">*</span></label>\
                     </div>\
                   </div>\
                   <div class="row">\
                     <div class="input-field col s12">\
                       <input id="email'+i+'" name="email'+i+'" type="email" class="validate" required>\
-                      <label for="email'+i+'">Email</label>\
+                      <label for="email'+i+'">Email<span class="make_red">*</span></label>\
                       <span class="" data-error="wrong" data-success="right"></span>\
                     </div>\
                   </div>\
                   <div class="row">\
                     <div class="input-field col s6">\
                         <input id="number'+i+'" name="mobile'+i+'" type="text" class="validate" required>\
-                        <label for="number'+i+'">Mobile N.o</label>\
+                        <label for="number'+i+'">Mobile N.o<span class="make_red">*</span></label>\
                       </div>\
                       \
                   </div>\
-               <label> T-shirt size</label>\
+               <label> T-shirt size<span class="make_red">*</span></label>\
                   <div class="row s12">\
                     <div class="col">\
                         <p>\
@@ -404,7 +405,7 @@
     <h3 class="cardheading">Startup Registration</h3>\
     <div class="input-field col s6">\
       <input  id="stpname" name="stpname" type="text" class="validate" required>\
-      <label for="stpname">Startup Name</label>\
+      <label for="stpname">Startup Name<span class="make_red">*</span></label>\
     </div>\
     <div class="input-field col s6">\
       <input  id="website" name="website" type="text" class="validate" required>\
@@ -414,8 +415,8 @@
     <form class="col s12">\
       <div class="row">\
         <div class="input-field col s12">\
-          <textarea id="address" class="materialize-textarea"></textarea>\
-          <label for="address">Addeess</label>\
+          <textarea id="address" name="address" class="materialize-textarea"></textarea>\
+          <label for="address">Address<span class="make_red">*</span></label>\
         </div>\
       </div>\
     </form>\
@@ -425,23 +426,39 @@
     <div class="row">\
         <div class="input-field col s6">\
         <i class="material-icons prefix">account_circle</i>\
-          <input id="first_name" type="text" class="validate">\
-          <label for="first_name">First Name</label>\
+          <input id="first_name" name="first_name" type="text" class="validate">\
+          <label for="first_name">First Name<span class="make_red">*</span></label>\
         </div>\
         <div class="input-field col s6">\
-          <input id="last_name" type="text" class="validate">\
-          <label for="last_name">Last Name</label>\
+          <input id="last_name" type="text" name="last_name" class="validate">\
+          <label for="last_name">Last Name<span class="make_red">*</span></label>\
         </div>\
       </div>\
       <div class="row">\
         <div class="input-field col s12">\
         <i class="material-icons prefix">phone</i>\
-          <input id="mobile" type="text" class="validate">\
-          <label for="mobile">Mobile N.O</label>\
+          <input id="mobile" type="text" name="mobile" class="validate">\
+          <label for="mobile">Mobile No.<span class="make_red">*</span></label>\
         </div>\
       </div>\
+      <div class="row">\
+      	<div class="input-field col s12">\
+      		<i class="material-icons prefix">email</i>\
+        	<input id="email" name="email" type="email" class="validate" required>\
+        	<label for="email">Email<span class="make_red">*</span></label>\
+        	<span class="" data-error="wrong" data-success="right"></span>\
+      	</div>\
+      <div>\
   </div>';
     document.getElementById('startup').innerHTML += detail;
+  }
+
+  function changetoreg(){
+  	document.getElementById("regsubmit").name = "submit_registration";
+  }
+
+  function changetostp(){
+  	document.getElementById("regsubmit").name = "submit_startup";
   }
 </script>
 </body>
