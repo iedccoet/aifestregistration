@@ -298,7 +298,7 @@
 			return;
 		}
 		var detail = '<div class="participant z-depth-3" id = "card'+i+'">\
-                    <h2 class="cardheading">Participant #'+i+'</h2>\
+                    <h2 class="cardheading">Team Member #'+i+'</h2>\
                     <div class="row">\
                       <div class="input-field col s6">\
                         <input  id="first_name'+i+'" name="first_name'+i+'" type="text" class="validate" required>\
@@ -428,4 +428,5 @@
 </script>
 </body>
 </html>
+
 
