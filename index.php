@@ -209,16 +209,16 @@
                   <label>
                     <input class="with-gap" name="status" type="radio"  value="development"/>
                     <span>Development</span>
-                  </label>   
+                  </label>
+                  
+                  <label>
+                    <input class="with-gap" name="status" type="radio"  value="testing"/>
+                    <span>Testing</span>
+                  </label>
 
                   <label>
                     <input class="with-gap" name="status" type="radio"  value="completed"/>
                     <span>Completed</span>
-                  </label>
-
-                  <label>
-                    <input class="with-gap" name="status" type="radio"  value="testing"/>
-                    <span>Testing</span>
                   </label>
             </div>
 
