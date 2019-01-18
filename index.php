@@ -99,20 +99,28 @@
 
         <div class="guestinstance">
                 <div class="chip">
-                        <img src="./img/prathyusha.jpeg" alt="Contact Person">
-                        Pratyusha Simharaju, <label> Google </label>
+                        <img src="./img/ajinkya_kolhi.jpeg" alt="Contact Person">
+                        Ajinkya Kolhi, <label> Google </label>
                 </div>
                 <div class="chip">
                         <img src="./img/sidagarwal.jpg" alt="Contact Person">
-                        Siddhant Agarwal, <label> Intel Software Innovator </label>
+                        Siddhant Agarwal, <label> Google </label>
                 </div>
                 <div class="chip">
                         <img src="./img/kedar_nath.png" alt="Contact Person">
                         Kedar Nath Narahari, <label> Microsoft </label>
                 </div>
                 <div class="chip">
+                        <img src="./img/shubhi_sareen.jpg" alt="Contact Person">
+                        Shubhi Sareen, <label> Google Intern </label>
+                </div>
+                <div class="chip">
                         <img src="./img/enfageorge.jpeg" alt="Contact Person">
                         Enfa Rose George, <label> TurboLab Technologies </label>
+                </div>
+                <div class="chip">
+                        <img src="./img/farizrahman.jpeg" alt="Contact Person">
+                        Faris Rahman, <label> Skymind.ai </label>
                 </div>
                 <div class="chip">
                         <img src="./img/meharmoosa.jpg" alt="Contact Person">
@@ -127,10 +135,7 @@
                     Praveen Sreedhar, <label> Tinkerhub </label> 
                 </div>
                 
-                <div class="chip">
-                        <img src="./img/farizrahman.jpeg" alt="Contact Person">
-                        Faris Rahman, <label> Skymind.ai </label>
-                </div>
+                
                 
                 
                 
