@@ -251,7 +251,7 @@
         <div>
         <p>
       <label>
-        <input type="checkbox" onchange="document.getElementById('regsubmit').disabled = !this.checked;"/>
+        <input type="checkbox" id="condition" onchange=" check_details();document.getElementById('regsubmit').disabled = !this.checked;"/>
         <span>As part of the transportation, food and accomodation(if required) each person will be charged a small amount of fee. The amount will be notified later on. Please tick
         off the checkbox and submit your application if you accept the condition.</span>
       </label>
@@ -259,7 +259,7 @@
 
     <div><p style="font-size: 12px;"><span class="make_red">*</span>Compulsory.</p></div>
         </div>
-        <button class="btn" type="submit" name="submit_registration" id = "regsubmit" onclick= "show_message()" disabled>Submit
+        <button class="btn" type="submit" name="" id = "regsubmit" onclick= "show_message()" disabled>Submit
             <i class="material-icons right">send</i>
           </button>
       </form>
@@ -481,6 +481,14 @@
 
   function changetostp(){
   	document.getElementById("regsubmit").name = "submit_startup";
+  }
+
+  function check_details(){
+    if(document.getElementById("regsubmit").name == ""){
+      toastit('You have not completed the participant details.');
+      document.getElementById('condition').checked = false;
+    }
+    return;
   }
 </script>
 </body>
