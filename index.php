@@ -172,18 +172,31 @@
             </div>
 
             <div><br>
+              <label>Category Of the Project</label><br>
+                  <label>
+                    <input class="with-gap" name="category" type="radio"  value="hardware"/>
+                    <span>Hardware</span>
+                  </label>
+
+                  <label>
+                    <input class="with-gap" name="category" type="radio"  value="software"/>
+                    <span>Software</span>
+                  </label>   
+            </div>
+
+            <div><br>
               <label>Project Status</label><br>
                   <label>
                     <input class="with-gap" name="status" type="radio"  value="ideation"/>
-                    <span>ideation</span>
+                    <span>Ideation</span>
                   </label>
 
                   <label>
                     <input class="with-gap" name="status" type="radio"  value="development"/>
-                    <span>development</span>
+                    <span>Development</span>
                   </label>   
                   <label>
-                    <input class="with-gap" name="status" type="radio"  value="Completed"/>
+                    <input class="with-gap" name="status" type="radio"  value="completed"/>
                     <span>Completed / Testing</span>
                   </label>
             </div>
@@ -229,6 +242,11 @@
       </form>
       
     </div>
+
+    
+    <br>
+    <hr>
+
     <?php
       include_once('contact.php');
     ?>

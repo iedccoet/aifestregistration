@@ -41,14 +41,17 @@
     $project_desc = pickup('project_desc'); 
     $accomodation = pickup('accomodation');
     $link = pickup('video_link');
+    $category = pickup('category');
+    $status = pickup('status');
 
     include_once('conn.php');
 
     $date = date('Y-m-d');
 
-    mysqli_query($con, "INSERT INTO register_stall(first_name1, last_name1 , email1, mobile1, tshirt1, first_name2, last_name2 , email2, mobile2,tshirt2, first_name3, last_name3 , email3, mobile3, tshirt3, first_name4, last_name4 , email4, mobile4, tshirt4, first_name5, last_name5 , email5, mobile5, tshirt5, first_name6, last_name6 , email6, mobile6, tshirt6, project_name, project_desc,link,accomodation1 ,date_tab)
+    mysqli_query($con, "INSERT INTO register_stall(first_name1, last_name1 , email1, mobile1, tshirt1, first_name2, last_name2 , email2, mobile2,tshirt2, first_name3, last_name3 , email3, mobile3, tshirt3, first_name4, last_name4 , email4, mobile4, tshirt4, first_name5, last_name5 , email5, mobile5, tshirt5, first_name6, last_name6 , email6, mobile6, tshirt6, project_name, project_desc,current_stage,category_project,link,accomodation1 ,date_tab)
       
-      VALUES('$first_name1', '$last_name1','$email1','$mobile1', '$tshirt1','$first_name2', '$last_name2','$email2','$mobile2', '$tshirt2', '$first_name3', '$last_name3','$email3','$mobile3', '$tshirt3', '$first_name4', '$last_name4','$email4','$mobile4', '$tshirt4', '$first_name5', '$last_name5','$email5','$mobile5', '$tshirt5', '$first_name6', '$last_name6','$email6','$mobile6', '$tshirt6', '$project', '$project_desc','$link','$accomodation','$date')") or die("<script>
+      VALUES('$first_name1', '$last_name1','$email1','$mobile1', '$tshirt1','$first_name2', '$last_name2','$email2','$mobile2', '$tshirt2', '$first_name3', '$last_name3','$email3','$mobile3', '$tshirt3', '$first_name4', '$last_name4','$email4','$mobile4', '$tshirt4', '$first_name5', '$last_name5','$email5','$mobile5', '$tshirt5', '$first_name6', '$last_name6','$email6','$mobile6', '$tshirt6', '$project', '$project_desc',
+      '$status','$category','$link','$accomodation','$date')") or die("<script>
       alert('Unable to register. Please try again.');
       window.location.href='index.php';
       </script>");
