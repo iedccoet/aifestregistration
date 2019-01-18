@@ -257,8 +257,9 @@
 	}
 
 
-  //function to init the register as a team thingy -- currently developing
+  //function to init the register as a team thingy -- done
   function teaminit(){
+    document.getElementById("btncontainer").style.display= "";
     for (i; i > 0; i--) {
       var elem = document.getElementById("card"+i);
     elem.parentNode.removeChild(elem);
@@ -345,6 +346,24 @@
   </div>';
 
   document.getElementById('details_'+i+'').innerHTML += detail;
+  }
+
+
+
+
+
+
+    //function to generate the card if the startup button is clicked -- dveloping 
+    function startupinit(){
+    document.getElementById("btncontainer").style.display = "none";
+    for (i; i > 0; i--) {
+    var elem = document.getElementById("card"+i);
+    if(elem){elem.parentNode.removeChild(elem);}
+    }
+    i++;  
+    var detail = '<div class="participant z-depth-3" id = "card'+i+'">hello\
+  </div>';
+    document.getElementById('startup').innerHTML += detail;
   }
 </script>
 </body>
