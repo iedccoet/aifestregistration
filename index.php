@@ -446,15 +446,20 @@
     <br>\
     <h6> Representative details</h6>\
     <div class="row">\
-        <div class="input-field col s6">\
+    <div class="row">\
+        <div class="input-field col s12">\
         <i class="material-icons prefix">account_circle</i>\
           <input id="first_name" name="first_name" type="text" class="validate" required>\
           <label for="first_name">First Name<span class="make_red">*</span></label>\
         </div>\
-        <div class="input-field col s6">\
+      </div>\
+      <div class="row">\
+        <div class="input-field col s12">\
+        <i class="material-icons prefix">account_circle</i>\
           <input id="last_name" type="text" name="last_name" class="validate" required>\
           <label for="last_name">Last Name<span class="make_red">*</span></label>\
         </div>\
+      </div>\
       </div>\
       <div class="row">\
         <div class="input-field col s12">\
@@ -485,7 +490,7 @@
 
   function check_details(){
     if(document.getElementById("regsubmit").name == ""){
-      toastit('You have not completed the participant details.');
+      toastit('Complete registration as a team or startup.');
       document.getElementById('condition').checked = false;
     }
     return;
