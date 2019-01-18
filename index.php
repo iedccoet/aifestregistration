@@ -247,6 +247,8 @@
         off the checkbox and submit your application if you accept the condition.</span>
       </label>
     </p>
+
+    <div><p style="font-size: 12px;"><span class="make_red">*</span>Compulsory.</p></div>
         </div>
         <button class="btn" type="submit" name="submit_registration" id = "regsubmit" onclick= "show_message()" disabled>Submit
             <i class="material-icons right">send</i>
