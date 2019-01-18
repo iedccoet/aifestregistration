@@ -170,26 +170,32 @@
                     <span>No</span>
                   </label>   
             </div>
+            <div class = "center">
+            <a class=" btn"  onclick= "teaminit()" style = "margin:20px;">Register as a Team</a>
+            <a class="btn" style = "margin:20px;" onclick = "startupinit()">Register as Startup</a>
+            </div>
             <div id="details_1"></div>
             <div id="details_2"></div>
             <div id="details_3"></div>
             <div id="details_4"></div>
             <div id="details_5"></div>
             <div id="details_6"></div>    
-            
+            <div id ="startup"></div>        
 
 <!--do not end div here-->  
     </div>
       
-    <div class="addbtn">
+    
+     
+    <div class="addbtn" id = "btncontainer" style = "display:none;">
         <div class="addparticipantbtn">
             <a class="btn-floating btn-large red " onclick="increment()" ><i class="material-icons">add</i></a>
         </div>  
         <div class="addparticipantbtn">
             <a class="btn-floating btn-large  red " onclick="remove()" ><i class="material-icons">remove</i></a>
         </div>
-          
-      </div>
+
+    </div>
         <div>
         <p>
       <label>
@@ -208,6 +214,7 @@
     <?php
       include_once('contact.php');
     ?>
+
 
     <footer class="page-footer mainscreen">
         <div class="container">
@@ -230,14 +237,15 @@
 
 
 <script>
-          var i =0;
-          increment();
-          
-        function toastit(a){
-            M.Toast.dismissAll();
-            M.toast({html: a});
-        }
+  var i =0;
+  //function to display toasts --DONE       
+  function toastit(a){
+    M.Toast.dismissAll();
+    M.toast({html: a});
+  }
   
+
+  //function to remove the cards -- DONE
 	function remove(){
     if(i <= 1){
       toastit("you need atleast 1 participant");
@@ -248,9 +256,18 @@
     i--;
 	}
 
+
+  //function to init the register as a team thingy -- currently developing
+  function teaminit(){
+    for (i; i > 0; i--) {
+      var elem = document.getElementById("card"+i);
+    elem.parentNode.removeChild(elem);
+    }
+    increment();
+    
+  }
 	function increment(){
-     
-		i++;
+    i++;
 		if(i>=7){
 			
 			toastit('Cannot add more than 6 participants');i--;
@@ -327,11 +344,9 @@
                   \
   </div>';
 
-		document.getElementById('details_'+i+'').innerHTML += detail;
-
-	}
-
-        </script>
+  document.getElementById('details_'+i+'').innerHTML += detail;
+  }
+</script>
 </body>
 </html>
 
