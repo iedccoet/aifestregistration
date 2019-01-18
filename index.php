@@ -199,7 +199,7 @@
 
                   <label>
                     <input class="with-gap" name="status" type="radio"  value="completed"/>
-                    <span>Completed / Testing</span>
+                    <span>Completed</span>
                   </label>
 
                   <label>
