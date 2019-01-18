@@ -421,7 +421,7 @@
     <form class="col s12">\
       <div class="row">\
         <div class="input-field col s12">\
-          <textarea id="address" name="address" class="materialize-textarea"></textarea>\
+          <textarea id="address" name="address" class="materialize-textarea" required></textarea>\
           <label for="address">Address<span class="make_red">*</span></label>\
         </div>\
       </div>\
@@ -432,18 +432,18 @@
     <div class="row">\
         <div class="input-field col s6">\
         <i class="material-icons prefix">account_circle</i>\
-          <input id="first_name" name="first_name" type="text" class="validate">\
+          <input id="first_name" name="first_name" type="text" class="validate" required>\
           <label for="first_name">First Name<span class="make_red">*</span></label>\
         </div>\
         <div class="input-field col s6">\
-          <input id="last_name" type="text" name="last_name" class="validate">\
+          <input id="last_name" type="text" name="last_name" class="validate" required>\
           <label for="last_name">Last Name<span class="make_red">*</span></label>\
         </div>\
       </div>\
       <div class="row">\
         <div class="input-field col s12">\
         <i class="material-icons prefix">phone</i>\
-          <input id="mobile" type="text" name="mobile" class="validate">\
+          <input id="mobile" type="text" name="mobile" class="validate" required>\
           <label for="mobile">Mobile No.<span class="make_red">*</span></label>\
         </div>\
       </div>\
