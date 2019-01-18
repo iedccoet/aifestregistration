@@ -170,6 +170,24 @@
                     <span>No</span>
                   </label>   
             </div>
+
+            <div><br>
+              <label>Project Status</label><br>
+                  <label>
+                    <input class="with-gap" name="status" type="radio"  value="ideation"/>
+                    <span>ideation</span>
+                  </label>
+
+                  <label>
+                    <input class="with-gap" name="status" type="radio"  value="development"/>
+                    <span>development</span>
+                  </label>   
+                  <label>
+                    <input class="with-gap" name="status" type="radio"  value="Completed"/>
+                    <span>Completed / Testing</span>
+                  </label>
+            </div>
+
             <div class = "center">
             <a class=" btn"  onclick= "teaminit()" style = "margin:20px;">Register as a Team</a>
             <a class="btn" style = "margin:20px;" onclick = "startupinit()">Register as Startup</a>
@@ -237,6 +255,11 @@
 
 
 <script>
+    document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('select');
+    var instances = M.FormSelect.init(elems, classes);
+  });
+
   var i =0;
   //function to display toasts --DONE       
   function toastit(a){
@@ -302,8 +325,6 @@
                   </div>\
                <label> T-shirt size</label>\
                   <div class="row s12">\
-\
-\
                     <div class="col">\
                         <p>\
                             <label>\
@@ -361,7 +382,46 @@
     if(elem){elem.parentNode.removeChild(elem);}
     }
     i++;  
-    var detail = '<div class="participant z-depth-3" id = "card'+i+'">hello\
+    var detail = '<div class="participant z-depth-3" id = "card'+i+'">\
+    <h3 class="cardheading">Startup Registration</h3>\
+    <div class="input-field col s6">\
+      <input  id="stpname" name="stpname" type="text" class="validate" required>\
+      <label for="stpname">Startup Name</label>\
+    </div>\
+    <div class="input-field col s6">\
+      <input  id="website" name="website" type="text" class="validate" required>\
+      <label for="website">Website</label>\
+    </div>\
+    <div class="row">\
+    <form class="col s12">\
+      <div class="row">\
+        <div class="input-field col s12">\
+          <textarea id="address" class="materialize-textarea"></textarea>\
+          <label for="address">Addeess</label>\
+        </div>\
+      </div>\
+    </form>\
+  </div>\
+    <br>\
+    <h6> Representative details</h6>\
+    <div class="row">\
+        <div class="input-field col s6">\
+        <i class="material-icons prefix">account_circle</i>\
+          <input id="first_name" type="text" class="validate">\
+          <label for="first_name">First Name</label>\
+        </div>\
+        <div class="input-field col s6">\
+          <input id="last_name" type="text" class="validate">\
+          <label for="last_name">Last Name</label>\
+        </div>\
+      </div>\
+      <div class="row">\
+        <div class="input-field col s12">\
+        <i class="material-icons prefix">phone</i>\
+          <input id="mobile" type="text" class="validate">\
+          <label for="mobile">Mobile N.O</label>\
+        </div>\
+      </div>\
   </div>';
     document.getElementById('startup').innerHTML += detail;
   }
