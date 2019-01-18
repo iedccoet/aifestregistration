@@ -196,9 +196,15 @@
                     <input class="with-gap" name="status" type="radio"  value="development"/>
                     <span>Development</span>
                   </label>   
+
                   <label>
                     <input class="with-gap" name="status" type="radio"  value="completed"/>
                     <span>Completed / Testing</span>
+                  </label>
+
+                  <label>
+                    <input class="with-gap" name="status" type="radio"  value="testing"/>
+                    <span>Testing</span>
                   </label>
             </div>
 

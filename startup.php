@@ -13,14 +13,15 @@
     $accomodation = pickup_stp('accomodation');
     $category = pickup_stp('category');
     $status = pickup_stp('status');
+    $link = pickup_stp('video_link');
 
     include_once('conn.php');
 
     $date = date('Y-m-d');
 
-    mysqli_query($con, "INSERT INTO startup(startup_name,website,address,first_name,last_name,mobile,email,project_name,project_desc,category_project,project_status,accommodation,date_tab)
+    mysqli_query($con, "INSERT INTO startup(startup_name,website,address,first_name,last_name,mobile,email,project_name,project_desc,video_link,category_project,project_status,accommodation,date_tab)
       
-      VALUES('$startup_name','$website','$address','$first_name','$last_name','$mobile','$email','$project','$project_desc','$category','$status','$accomodation','$date')") or die("<script>
+      VALUES('$startup_name','$website','$address','$first_name','$last_name','$mobile','$email','$project','$project_desc','$link','$category','$status','$accomodation','$date')") or die("<script>
       alert('Unable to register. Please try again.');
       window.location.href='index.php';
       </script>");
