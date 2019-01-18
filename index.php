@@ -115,6 +115,10 @@
                         Shubhi Sareen, <label> Google Intern </label>
                 </div>
                 <div class="chip">
+                        <img src="./img/umang_sharma.jpeg" alt="Contact Person">
+                        Umang Sharma, <label> Open Source Contributor </label>
+                </div>
+                <div class="chip">
                         <img src="./img/enfageorge.jpeg" alt="Contact Person">
                         Enfa Rose George, <label> TurboLab Technologies </label>
                 </div>
@@ -188,6 +192,11 @@
                     <input class="with-gap" name="category" type="radio"  value="software"/>
                     <span>Software</span>
                   </label>   
+
+                  <label>
+                    <input class="with-gap" name="category" type="radio"  value="both"/>
+                    <span>Both</span>
+                  </label>
             </div>
 
             <div><br>
