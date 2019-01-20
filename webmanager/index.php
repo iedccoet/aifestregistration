@@ -21,8 +21,8 @@
 
 		          $_SESSION['user']=$user;
 
-
-		         echo '<script type="text/javascript"> window.open("webmanager_register.php","_self");</script>';            
+		          header("Location:webmanager_select.php"); 
+		         //echo '<script type="text/javascript"> window.open("webmanager_select.php","_self");</script>';            
 
 		        }
 

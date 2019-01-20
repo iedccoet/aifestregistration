@@ -50,6 +50,8 @@ if(isset($_POST["export"]))
 
               <th>Project_Name</th> 
               <th>Project_Description</th>
+              <th>Category of Project</th>
+              <th>Project Status</th>
               <th>Link</th>
               <th>Accomodation</th>
               <th>Date</th> 
@@ -111,6 +113,8 @@ if(isset($_POST["export"]))
 
       <td>'.$row["project_name"].'</td>  
       <td>'.$row["project_desc"].'</td>
+      <td>'.$row["category_project"].'</td>  
+      <td>'.$row["current_stage"].'</td>
       <td>'.$row["link"].'</td>
       <td>'.$row["accomodation"].'</td>
       <td>'.$row["date_tab"].'</td>
