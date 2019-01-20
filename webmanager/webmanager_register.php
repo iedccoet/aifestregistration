@@ -15,6 +15,7 @@
 
 <body>
 	<a href="logout.php" class="logout-link">Logout</a>
+	<a href="webmanager_select.php" class="back-link">Back</a>
 	<div class="table-control">
 		<?php
 			include_once('conn.php');
@@ -99,8 +100,8 @@
 	</div>
 
 	<form method="POST" action="download_register_2.php">
-		<button type="submit" name="export">Export As Excel</button>
+		<button type="submit" name="export" class="export-btn">Export As Excel</button>
 	</form>
-	<a href="webmanager_select.php" class="logout-link">Back</a>
+	
 </body>
 </html>

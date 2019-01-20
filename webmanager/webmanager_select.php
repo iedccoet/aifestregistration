@@ -19,7 +19,7 @@
 		    header("Location:index.php"); 
 		 }
 	?>
-        <a href="logout.php" class="logout-link">Logout</a>
+        <a href="logout.php" class="login-link">Logout</a>
 		<div class="container">
 			<button onclick="location.href='webmanager_register.php'" class="btn btn-info button-control">REGISTER DB</button>
 			<button onclick="location.href='webmanager_startup.php'" class="btn btn-info button-control">STARTUP DB</button>

@@ -1,4 +1,4 @@
-<?php
+back<?php
 	session_start();
 	if(!isset($_SESSION['user']))
 	 {
@@ -15,6 +15,8 @@
 
 <body>
 	<a href="logout.php" class="logout-link">Logout</a>
+	<a href="search_startup.php" class="back-link">Back To Search</a>
+	<a href="webmanager_select.php" class="back-link">Back To Menu</a>
 	<div class="table-control">
 		<?php
 			include_once('conn.php');
@@ -67,15 +69,12 @@
 			}
 			
 			else{
-			    echo 'No data in db yet.';
+			    echo 'No such data found.';
 			}
 		?>
 	</div>
 
-	<br>
-	<a href="search_startup.php" class="logout-link">Back To Search</a>
-	<br/>
-	<a href="webmanager_select.php" class="logout-link">Back To Menu</a>
+	
 
 </body>
 </html>

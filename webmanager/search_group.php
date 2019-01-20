@@ -17,13 +17,15 @@
 </head>
 <body>
 	<a href="logout.php" class="logout-link">Logout</a>
+	<a href="webmanager_select.php" class="back-link">Back</a>
+	
 	<br/><br/>
 	<form action="search_group_print.php" method="post">  
 		ENTER THE PROJECT NAME: <input type="text" name="term" id="term"/>
 		<input type="submit" value="Submit" id="submit"/>
 	</form>
 	<br/>
-
-	<a href="webmanager_select.php" class="logout-link">Back</a>
+	<br>
+	
 </body>
 </html>

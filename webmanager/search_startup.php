@@ -16,12 +16,13 @@
 </head>
 <body>
 	<a href="logout.php" class="logout-link">Logout</a>
+	<a href="webmanager_select.php" class="back-link">Back To Menu</a>
+
 	<br/><br/>
 	<form action="search_startup_print.php" method="post">  
 		Search: <input type="text" name="term" />
 		<input type="submit" value="Submit"/>
 	</form>
 	<br/>
-	<a href="webmanager_select.php" class="logout-link">Back To Menu</a>
-</body>
+	</body>
 </html>
