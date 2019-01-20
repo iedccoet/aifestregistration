@@ -19,3 +19,12 @@ table, th, td {
 	height:60px;
 	width:500px;
 }
+
+@media screen and (max-width: 580px) {
+      .button-control{
+      	display: inline-block;
+		margin-top: 100px;
+		height:60px;
+		width:200px;
+      }
+}
