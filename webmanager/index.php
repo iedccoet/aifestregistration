@@ -4,7 +4,7 @@
 	if(isset($_SESSION['user']))   // Checking whether the session is already there or not if 
 	                              // true then header redirect it to the home page directly 
 	 {
-	    header("Location:webmanager_register.php"); 
+	    header("Location:webmanager_select.php"); 
 	 }
 
 	if(isset($_POST['submit']))  
