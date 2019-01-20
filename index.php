@@ -136,7 +136,7 @@
                 </div>
                 <div class="chip" onclick = "">
                     <img src="./img/praveen.jpg" alt="Contact Person">
-                    Praveen Sreedhar, <label> Tinkerhub </label> 
+                    Praveen Sridhar, <label> Tinkerhub </label> 
                 </div>
                 
                 
