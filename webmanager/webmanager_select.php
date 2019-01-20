@@ -23,6 +23,8 @@
 		<div class="container">
 			<button onclick="location.href='webmanager_register.php'" class="btn btn-info button-control">REGISTER DB</button>
 			<button onclick="location.href='webmanager_startup.php'" class="btn btn-info button-control">STARTUP DB</button>
+			<button onclick="location.href='search_group.php'" class="btn btn-info button-control">SEARCH REGISTER DB</button>
+			<button onclick="location.href='search_startup.php'" class="btn btn-info button-control">SEARCH STARTUP DB</button
 		</div>
 
 </body>
