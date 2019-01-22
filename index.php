@@ -104,7 +104,7 @@
                 </div>
                 <div class="chip">
                         <img src="./img/sidagarwal.jpg" alt="Contact Person">
-                        Siddhant Agarwal, <label> Google </label>
+                        Siddhant Agarwal, <label> Program Coordinator, Google Devoloper Relations Team </label>
                 </div>
                 <div class="chip">
                         <img src="./img/kedar_nath.png" alt="Contact Person">
