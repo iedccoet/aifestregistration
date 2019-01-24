@@ -83,3 +83,9 @@ i.footericon {
 .make_red{
     color: red;
 }
+
+@media screen and (max-width: 580px) {
+      .reduce{
+        font-size: 9px;
+      }
+}
