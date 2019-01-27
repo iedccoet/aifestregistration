@@ -59,7 +59,7 @@
     include_once('email_db.php');
 
       if($first_name1 != "NIL"){
-        $header1="From: registrations@iedccoet.org";
+        $header1="From: registration@iedccoet.org";
           $subject1="REGISTRATION SUCCESFULL - AI FEST 2.0";
           $to1 = $email1;
           $message1 = "Hi $first_name1,\n\nYour registration was succesfully recorded.\nWe are excited to have you onboard this event.\nOur team will get in touch with you soon.\nThe event is on March 22nd and 23rd of 2019.\nSee you then.\n\nRegards,\nTeam AI FEST 2.0,\nIEDC COET.";
@@ -68,7 +68,7 @@
       }
 
       if($first_name2 != "NIL"){
-        $header2="From: registrations@iedccoet.org";
+        $header2="From: registration@iedccoet.org";
           $subject2="REGISTRATION SUCCESFULL - AI FEST 2.0";
           $to2 = $email2;
           $message2 = "Hi $first_name2,\n\nYour registration was succesfully recorded.\nWe are excited to have you onboard this event.\nOur team will get in touch with you soon.\nThe event is on March 22nd and 23rd of 2019.\nSee you then.\n\nRegards,\nTeam AI FEST 2.0,\nIEDC COET.";
@@ -78,7 +78,7 @@
       }
 
       if($first_name3 != "NIL"){
-        $header3="From: registrations@iedccoet.org";
+        $header3="From: registration@iedccoet.org";
           $subject3="REGISTRATION SUCCESFULL - AI FEST 2.0";
           $to3 = $email3;
           $message3 = "Hi $first_name3,\n\nYour registration was succesfully recorded.\nWe are excited to have you onboard this event.\nOur team will get in touch with you soon.\nThe event is on March 22nd and 23rd of 2019.\nSee you then.\n\nRegards,\nTeam AI FEST 2.0,\nIEDC COET.";
@@ -88,7 +88,7 @@
       }
 
       if($first_name4 != "NIL"){
-        $header4="From: registrations@iedccoet.org";
+        $header4="From: registration@iedccoet.org";
           $subject4="REGISTRATION SUCCESFULL - AI FEST 2.0";
           $to4 = $email4;
           $message4 = "Hi $first_name4,\n\nYour registration was succesfully recorded.\nWe are excited to have you onboard this event.\nOur team will get in touch with you soon.\nThe event is on March 22nd and 23rd of 2019.\nSee you then.\n\nRegards,\nTeam AI FEST 2.0,\nIEDC COET.";
@@ -97,7 +97,7 @@
       }
 
       if($first_name5 != "NIL"){
-        $header5="From: registrations@iedccoet.org";
+        $header5="From: registration@iedccoet.org";
           $subject5="REGISTRATION SUCCESFULL - AI FEST 2.0";
           $to5 = $email5;
           $message5 = "Hi $first_name5,\n\nYour registration was succesfully recorded.\nWe are excited to have you onboard this event.\nOur team will get in touch with you soon.\nThe event is on March 22nd and 23rd of 2019.\nSee you then.\n\nRegards,\nTeam AI FEST 2.0,\nIEDC COET.";
@@ -106,7 +106,7 @@
       }
 
       if($first_name6 != "NIL"){
-        $header6="From: registrations@iedccoet.org";
+        $header6="From: registration@iedccoet.org";
           $subject6="REGISTRATION SUCCESFULL - AI FEST 2.0";
           $to6 = $email6;
           $message6 = "Hi $first_name6,\n\nYour registration was succesfully recorded.\nWe are excited to have you onboard this event.\nOur team will get in touch with you soon.\nThe event is on March 22nd and 23rd of 2019.\nSee you then.\n\nRegards,\nTeam AI FEST 2.0,\nIEDC COET.";
